@@ -1,0 +1,24 @@
+[0.596s] Invoking command in '/home/wudad10/Fold1/counter/src/counter_pkg': PYTHONPATH=/home/wudad10/Fold1/counter/build/counter_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/counter/install/counter_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/counter_pkg build --build-base /home/wudad10/Fold1/counter/build/counter_pkg/build install --record /home/wudad10/Fold1/counter/build/counter_pkg/install.log --single-version-externally-managed install_data
+[0.807s] running egg_info
+[0.807s] writing ../../build/counter_pkg/counter_pkg.egg-info/PKG-INFO
+[0.808s] writing dependency_links to ../../build/counter_pkg/counter_pkg.egg-info/dependency_links.txt
+[0.808s] writing entry points to ../../build/counter_pkg/counter_pkg.egg-info/entry_points.txt
+[0.808s] writing requirements to ../../build/counter_pkg/counter_pkg.egg-info/requires.txt
+[0.808s] writing top-level names to ../../build/counter_pkg/counter_pkg.egg-info/top_level.txt
+[0.809s] reading manifest file '../../build/counter_pkg/counter_pkg.egg-info/SOURCES.txt'
+[0.810s] writing manifest file '../../build/counter_pkg/counter_pkg.egg-info/SOURCES.txt'
+[0.810s] running build
+[0.810s] running build_py
+[0.811s] copying counter_pkg/counter_node.py -> /home/wudad10/Fold1/counter/build/counter_pkg/build/lib/counter_pkg
+[0.811s] running install
+[0.811s] running install_lib
+[0.812s] copying /home/wudad10/Fold1/counter/build/counter_pkg/build/lib/counter_pkg/counter_node.py -> /home/wudad10/Fold1/counter/install/counter_pkg/lib/python3.10/site-packages/counter_pkg
+[0.812s] byte-compiling /home/wudad10/Fold1/counter/install/counter_pkg/lib/python3.10/site-packages/counter_pkg/counter_node.py to counter_node.cpython-310.pyc
+[0.813s] running install_data
+[0.813s] running install_egg_info
+[0.815s] removing '/home/wudad10/Fold1/counter/install/counter_pkg/lib/python3.10/site-packages/counter_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.815s] Copying ../../build/counter_pkg/counter_pkg.egg-info to /home/wudad10/Fold1/counter/install/counter_pkg/lib/python3.10/site-packages/counter_pkg-0.0.0-py3.10.egg-info
+[0.816s] running install_scripts
+[0.834s] Installing counter_node script to /home/wudad10/Fold1/counter/install/counter_pkg/lib/counter_pkg
+[0.835s] writing list of installed files to '/home/wudad10/Fold1/counter/build/counter_pkg/install.log'
+[0.864s] Invoked command in '/home/wudad10/Fold1/counter/src/counter_pkg' returned '0': PYTHONPATH=/home/wudad10/Fold1/counter/build/counter_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/counter/install/counter_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/counter_pkg build --build-base /home/wudad10/Fold1/counter/build/counter_pkg/build install --record /home/wudad10/Fold1/counter/build/counter_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+counter_node = counter_pkg.counter_node:main
+
