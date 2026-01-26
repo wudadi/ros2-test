@@ -1,0 +1,4 @@
+配置platformio
+sudo apt remove --purge brltty -y //该程序会占用端口，需要卸载
+sudo usermod -aG dialout `whoami` //解决普通用户无法访问硬件的权限问题
+vscode安装serial monitor //用于监视端口的信息
