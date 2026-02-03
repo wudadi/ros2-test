@@ -1,0 +1,23 @@
+[0.029s] Invoking command in '/home/wudad10/Fold1/ros2/3_param/build/cpp_param_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/3_param/build/cpp_param_node -- -j4 -l4
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target cpp_param_node[0m
+[0.108s] [100%] Built target cpp_param_node
+[0.285s] Invoked command in '/home/wudad10/Fold1/ros2/3_param/build/cpp_param_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/3_param/build/cpp_param_node -- -j4 -l4
+[0.297s] Invoking command in '/home/wudad10/Fold1/ros2/3_param/build/cpp_param_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --install /home/wudad10/Fold1/ros2/3_param/build/cpp_param_node
+[0.305s] -- Install configuration: ""
+[0.306s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/lib/cpp_param_node/cpp_param_node
+[0.307s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/ament_index/resource_index/package_run_dependencies/cpp_param_node
+[0.307s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/ament_index/resource_index/parent_prefix_path/cpp_param_node
+[0.307s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/cpp_param_node/environment/ament_prefix_path.sh
+[0.307s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/cpp_param_node/environment/ament_prefix_path.dsv
+[0.307s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/cpp_param_node/environment/path.sh
+[0.307s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/cpp_param_node/environment/path.dsv
+[0.307s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/cpp_param_node/local_setup.bash
+[0.307s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/cpp_param_node/local_setup.sh
+[0.307s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/cpp_param_node/local_setup.zsh
+[0.307s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/cpp_param_node/local_setup.dsv
+[0.307s] -- Installing: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/cpp_param_node/package.dsv
+[0.307s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/ament_index/resource_index/packages/cpp_param_node
+[0.308s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/cpp_param_node/cmake/cpp_param_nodeConfig.cmake
+[0.308s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/cpp_param_node/cmake/cpp_param_nodeConfig-version.cmake
+[0.308s] -- Up-to-date: /home/wudad10/Fold1/ros2/3_param/install/cpp_param_node/share/cpp_param_node/package.xml
+[0.311s] Invoked command in '/home/wudad10/Fold1/ros2/3_param/build/cpp_param_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --install /home/wudad10/Fold1/ros2/3_param/build/cpp_param_node

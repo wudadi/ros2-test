@@ -1,0 +1,37 @@
+[1.126s] Invoking command in '/home/wudad10/Fold1/ros2/4_action/src/py_action_client': PYTHONPATH=/home/wudad10/Fold1/ros2/4_action/build/py_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/4_action/install/py_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_action_client build --build-base /home/wudad10/Fold1/ros2/4_action/build/py_action_client/build install --record /home/wudad10/Fold1/ros2/4_action/build/py_action_client/install.log --single-version-externally-managed install_data
+[1.439s] running egg_info
+[1.440s] creating ../../build/py_action_client/py_action_client.egg-info
+[1.440s] writing ../../build/py_action_client/py_action_client.egg-info/PKG-INFO
+[1.440s] writing dependency_links to ../../build/py_action_client/py_action_client.egg-info/dependency_links.txt
+[1.441s] writing entry points to ../../build/py_action_client/py_action_client.egg-info/entry_points.txt
+[1.441s] writing requirements to ../../build/py_action_client/py_action_client.egg-info/requires.txt
+[1.441s] writing top-level names to ../../build/py_action_client/py_action_client.egg-info/top_level.txt
+[1.449s] writing manifest file '../../build/py_action_client/py_action_client.egg-info/SOURCES.txt'
+[1.449s] reading manifest file '../../build/py_action_client/py_action_client.egg-info/SOURCES.txt'
+[1.450s] writing manifest file '../../build/py_action_client/py_action_client.egg-info/SOURCES.txt'
+[1.450s] running build
+[1.450s] running build_py
+[1.450s] creating /home/wudad10/Fold1/ros2/4_action/build/py_action_client/build
+[1.451s] creating /home/wudad10/Fold1/ros2/4_action/build/py_action_client/build/lib
+[1.451s] creating /home/wudad10/Fold1/ros2/4_action/build/py_action_client/build/lib/py_action_client
+[1.451s] copying py_action_client/client.py -> /home/wudad10/Fold1/ros2/4_action/build/py_action_client/build/lib/py_action_client
+[1.451s] copying py_action_client/__init__.py -> /home/wudad10/Fold1/ros2/4_action/build/py_action_client/build/lib/py_action_client
+[1.451s] running install
+[1.452s] running install_lib
+[1.452s] creating /home/wudad10/Fold1/ros2/4_action/install/py_action_client/lib/python3.10/site-packages/py_action_client
+[1.452s] copying /home/wudad10/Fold1/ros2/4_action/build/py_action_client/build/lib/py_action_client/client.py -> /home/wudad10/Fold1/ros2/4_action/install/py_action_client/lib/python3.10/site-packages/py_action_client
+[1.452s] copying /home/wudad10/Fold1/ros2/4_action/build/py_action_client/build/lib/py_action_client/__init__.py -> /home/wudad10/Fold1/ros2/4_action/install/py_action_client/lib/python3.10/site-packages/py_action_client
+[1.453s] byte-compiling /home/wudad10/Fold1/ros2/4_action/install/py_action_client/lib/python3.10/site-packages/py_action_client/client.py to client.cpython-310.pyc
+[1.454s] byte-compiling /home/wudad10/Fold1/ros2/4_action/install/py_action_client/lib/python3.10/site-packages/py_action_client/__init__.py to __init__.cpython-310.pyc
+[1.454s] running install_data
+[1.454s] creating /home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/ament_index
+[1.454s] creating /home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/ament_index/resource_index
+[1.454s] creating /home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/ament_index/resource_index/packages
+[1.457s] copying resource/py_action_client -> /home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/ament_index/resource_index/packages
+[1.457s] copying package.xml -> /home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/py_action_client
+[1.457s] running install_egg_info
+[1.457s] Copying ../../build/py_action_client/py_action_client.egg-info to /home/wudad10/Fold1/ros2/4_action/install/py_action_client/lib/python3.10/site-packages/py_action_client-0.0.0-py3.10.egg-info
+[1.458s] running install_scripts
+[1.481s] Installing py_action_client script to /home/wudad10/Fold1/ros2/4_action/install/py_action_client/lib/py_action_client
+[1.481s] writing list of installed files to '/home/wudad10/Fold1/ros2/4_action/build/py_action_client/install.log'
+[1.568s] Invoked command in '/home/wudad10/Fold1/ros2/4_action/src/py_action_client' returned '0': PYTHONPATH=/home/wudad10/Fold1/ros2/4_action/build/py_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/4_action/install/py_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_action_client build --build-base /home/wudad10/Fold1/ros2/4_action/build/py_action_client/build install --record /home/wudad10/Fold1/ros2/4_action/build/py_action_client/install.log --single-version-externally-managed install_data

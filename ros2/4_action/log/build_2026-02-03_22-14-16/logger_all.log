@@ -1,0 +1,392 @@
+[0.103s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.103s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b449471e470>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b449471df60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b449471df60>>)
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.254s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wudad10/Fold1/ros2/4_action'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_client) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_client) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_client) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_client) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_client) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_client) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_client) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_client) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_client) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_action_client' with type 'ros.ament_cmake' and name 'cpp_action_client'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_server) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_server) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_server) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_server) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_server) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_server) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_server) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_server) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_action_server) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_action_server' with type 'ros.ament_cmake' and name 'cpp_action_server'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_interfaces' with type 'ros.ament_cmake' and name 'my_interfaces'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_client) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_action_client' with type 'ros.ament_python' and name 'py_action_client'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_server) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_server) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_server) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_server) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_server) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_server) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_server) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_server) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_action_server) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_action_server' with type 'ros.ament_python' and name 'py_action_server'
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.305s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/wudad10/Fold1/ros2/4_action/src/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.305s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/wudad10/Fold1/chapter9/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wudad10/Fold1/chapter9/install/ydlidar' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wudad10/Fold1/chapter9/install/ros_serial2wifi' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wudad10/Fold1/chapter9/install/micro_ros_agent' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wudad10/Fold1/chapter9/install/micro_ros_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wudad10/Fold1/chapter9/install/fishbot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wudad10/Fold1/chapter9/install/fishbot_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wudad10/Fold1/chapter9/install/ydlidar' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wudad10/Fold1/chapter9/install/micro_ros_agent' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wudad10/Fold1/chapter9/install/micro_ros_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wudad10/Fold1/chapter9/install/fishbot_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wudad10/Fold1/chapter9/install/fishbot_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.307s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/wudad10/Fold1/ros2/4_action/install
+[0.307s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/wudad10/Fold1/ros2/3_param/install
+[0.308s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/wudad10/Fold1/chapter9/fishbot_ws/install
+[0.310s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 371 installed packages in /opt/ros/humble
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_client' build argument 'cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_client' build argument 'cmake_target' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.352s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_action_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client', 'merge_install': False, 'path': '/home/wudad10/Fold1/ros2/4_action/src/cpp_action_client', 'symlink_install': False, 'test_result_base': None}
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_server' build argument 'cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_server' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_action_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wudad10/Fold1/ros2/4_action/build/cpp_action_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server', 'merge_install': False, 'path': '/home/wudad10/Fold1/ros2/4_action/src/cpp_action_server', 'symlink_install': False, 'test_result_base': None}
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'my_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wudad10/Fold1/ros2/4_action/build/my_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces', 'merge_install': False, 'path': '/home/wudad10/Fold1/ros2/4_action/src/my_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'py_action_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wudad10/Fold1/ros2/4_action/build/py_action_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wudad10/Fold1/ros2/4_action/install/py_action_client', 'merge_install': False, 'path': '/home/wudad10/Fold1/ros2/4_action/src/py_action_client', 'symlink_install': False, 'test_result_base': None}
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_server' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_server' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'py_action_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'py_action_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wudad10/Fold1/ros2/4_action/build/py_action_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wudad10/Fold1/ros2/4_action/install/py_action_server', 'merge_install': False, 'path': '/home/wudad10/Fold1/ros2/4_action/src/py_action_server', 'symlink_install': False, 'test_result_base': None}
+[0.354s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.356s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.357s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wudad10/Fold1/ros2/4_action/src/cpp_action_client' with build type 'ament_cmake'
+[0.357s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wudad10/Fold1/ros2/4_action/src/cpp_action_client'
+[0.359s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.366s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wudad10/Fold1/ros2/4_action/src/cpp_action_server' with build type 'ament_cmake'
+[0.366s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wudad10/Fold1/ros2/4_action/src/cpp_action_server'
+[0.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.367s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.372s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wudad10/Fold1/ros2/4_action/src/my_interfaces' with build type 'ament_cmake'
+[0.373s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wudad10/Fold1/ros2/4_action/src/my_interfaces'
+[0.373s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.379s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wudad10/Fold1/ros2/4_action/src/py_action_client' with build type 'ament_python'
+[0.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_client', 'ament_prefix_path')
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/py_action_client/hook/ament_prefix_path.ps1'
+[0.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/py_action_client/hook/ament_prefix_path.dsv'
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/py_action_client/hook/ament_prefix_path.sh'
+[0.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/4_action/install/py_action_server:/home/wudad10/Fold1/ros2/4_action/install/py_action_client:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/4_action/build/cpp_action_client -- -j4 -l4
+[0.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wudad10/Fold1/ros2/4_action/build/cpp_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/4_action/install/py_action_server:/home/wudad10/Fold1/ros2/4_action/install/py_action_client:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/4_action/build/cpp_action_server -- -j4 -l4
+[0.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wudad10/Fold1/ros2/4_action/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/4_action/install/py_action_server:/home/wudad10/Fold1/ros2/4_action/install/py_action_client:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/4_action/build/my_interfaces -- -j4 -l4
+[0.787s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wudad10/Fold1/ros2/4_action/src/py_action_client'
+[0.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.788s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wudad10/Fold1/ros2/4_action/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/4_action/install/py_action_server:/home/wudad10/Fold1/ros2/4_action/install/py_action_client:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/4_action/build/my_interfaces -- -j4 -l4
+[1.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wudad10/Fold1/ros2/4_action/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/4_action/install/py_action_server:/home/wudad10/Fold1/ros2/4_action/install/py_action_client:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --install /home/wudad10/Fold1/ros2/4_action/build/my_interfaces
+[1.295s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_interfaces)
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces' for CMake module files
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces' for CMake config files
+[1.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wudad10/Fold1/ros2/4_action/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/4_action/install/py_action_server:/home/wudad10/Fold1/ros2/4_action/install/py_action_client:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --install /home/wudad10/Fold1/ros2/4_action/build/my_interfaces
+[1.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'cmake_prefix_path')
+[1.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.ps1'
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.dsv'
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.sh'
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/lib'
+[1.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'ld_library_path_lib')
+[1.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.ps1'
+[1.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.dsv'
+[1.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.sh'
+[1.310s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/bin'
+[1.310s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/lib/pkgconfig/my_interfaces.pc'
+[1.310s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/lib/python3.10/site-packages'
+[1.310s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/bin'
+[1.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/package.ps1'
+[1.312s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/package.dsv'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/package.sh'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/package.bash'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/package.zsh'
+[1.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/colcon-core/packages/my_interfaces)
+[1.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_interfaces)
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces' for CMake module files
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces' for CMake config files
+[1.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'cmake_prefix_path')
+[1.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.ps1'
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.dsv'
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.sh'
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/lib'
+[1.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'ld_library_path_lib')
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.ps1'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.dsv'
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.sh'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/bin'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/lib/pkgconfig/my_interfaces.pc'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/lib/python3.10/site-packages'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/bin'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/package.ps1'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/package.dsv'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/package.sh'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/package.bash'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/my_interfaces/package.zsh'
+[1.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wudad10/Fold1/ros2/4_action/install/my_interfaces/share/colcon-core/packages/my_interfaces)
+[1.330s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wudad10/Fold1/ros2/4_action/src/py_action_server' with build type 'ament_python'
+[1.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_server', 'ament_prefix_path')
+[1.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/share/py_action_server/hook/ament_prefix_path.ps1'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/share/py_action_server/hook/ament_prefix_path.dsv'
+[1.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/share/py_action_server/hook/ament_prefix_path.sh'
+[1.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wudad10/Fold1/ros2/4_action/src/py_action_client': PYTHONPATH=/home/wudad10/Fold1/ros2/4_action/build/py_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/4_action/install/py_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_action_client build --build-base /home/wudad10/Fold1/ros2/4_action/build/py_action_client/build install --record /home/wudad10/Fold1/ros2/4_action/build/py_action_client/install.log --single-version-externally-managed install_data
+[1.739s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wudad10/Fold1/ros2/4_action/src/py_action_server'
+[1.739s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.739s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/py_action_client' for CMake module files
+[1.749s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/py_action_client' for CMake config files
+[1.750s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/lib'
+[1.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wudad10/Fold1/ros2/4_action/src/py_action_client' returned '0': PYTHONPATH=/home/wudad10/Fold1/ros2/4_action/build/py_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/4_action/install/py_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_action_client build --build-base /home/wudad10/Fold1/ros2/4_action/build/py_action_client/build install --record /home/wudad10/Fold1/ros2/4_action/build/py_action_client/install.log --single-version-externally-managed install_data
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/bin'
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/lib/pkgconfig/py_action_client.pc'
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/lib/python3.10/site-packages'
+[1.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_client', 'pythonpath')
+[1.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/py_action_client/hook/pythonpath.ps1'
+[1.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/py_action_client/hook/pythonpath.dsv'
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/py_action_client/hook/pythonpath.sh'
+[1.758s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/bin'
+[1.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_action_client)
+[1.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/py_action_client/package.ps1'
+[1.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/py_action_client/package.dsv'
+[1.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/py_action_client/package.sh'
+[1.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/py_action_client/package.bash'
+[1.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/py_action_client/package.zsh'
+[1.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wudad10/Fold1/ros2/4_action/install/py_action_client/share/colcon-core/packages/py_action_client)
+[1.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wudad10/Fold1/ros2/4_action/build/cpp_action_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/4_action/install/py_action_server:/home/wudad10/Fold1/ros2/4_action/install/py_action_client:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/4_action/build/cpp_action_server -- -j4 -l4
+[1.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wudad10/Fold1/ros2/4_action/build/cpp_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/4_action/install/py_action_server:/home/wudad10/Fold1/ros2/4_action/install/py_action_client:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --install /home/wudad10/Fold1/ros2/4_action/build/cpp_action_server
+[1.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/4_action/install/py_action_server:/home/wudad10/Fold1/ros2/4_action/install/py_action_client:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/4_action/build/cpp_action_client -- -j4 -l4
+[1.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/4_action/install/py_action_server:/home/wudad10/Fold1/ros2/4_action/install/py_action_client:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --install /home/wudad10/Fold1/ros2/4_action/build/cpp_action_client
+[1.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_action_server)
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server' for CMake module files
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server' for CMake config files
+[1.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_action_server', 'cmake_prefix_path')
+[1.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/hook/cmake_prefix_path.ps1'
+[1.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wudad10/Fold1/ros2/4_action/build/cpp_action_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/4_action/install/py_action_server:/home/wudad10/Fold1/ros2/4_action/install/py_action_client:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --install /home/wudad10/Fold1/ros2/4_action/build/cpp_action_server
+[1.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/hook/cmake_prefix_path.dsv'
+[1.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/hook/cmake_prefix_path.sh'
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/lib'
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/bin'
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/lib/pkgconfig/cpp_action_server.pc'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/lib/python3.10/site-packages'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/bin'
+[1.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/package.ps1'
+[1.968s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/package.dsv'
+[1.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/package.sh'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/package.bash'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/package.zsh'
+[1.971s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/colcon-core/packages/cpp_action_server)
+[1.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_action_server)
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server' for CMake module files
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server' for CMake config files
+[1.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_action_server', 'cmake_prefix_path')
+[1.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/hook/cmake_prefix_path.ps1'
+[1.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/hook/cmake_prefix_path.dsv'
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/hook/cmake_prefix_path.sh'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/lib'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/bin'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/lib/pkgconfig/cpp_action_server.pc'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/lib/python3.10/site-packages'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/bin'
+[1.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/package.ps1'
+[1.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/package.dsv'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/package.sh'
+[1.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/package.bash'
+[1.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/cpp_action_server/package.zsh'
+[1.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wudad10/Fold1/ros2/4_action/install/cpp_action_server/share/colcon-core/packages/cpp_action_server)
+[1.983s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_action_client)
+[1.984s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client' for CMake module files
+[1.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/4_action/install/py_action_server:/home/wudad10/Fold1/ros2/4_action/install/py_action_client:/home/wudad10/Fold1/ros2/3_param/install/py_param_node:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --install /home/wudad10/Fold1/ros2/4_action/build/cpp_action_client
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client' for CMake config files
+[1.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_action_client', 'cmake_prefix_path')
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/hook/cmake_prefix_path.ps1'
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/hook/cmake_prefix_path.dsv'
+[1.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/hook/cmake_prefix_path.sh'
+[1.988s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/lib'
+[1.988s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/bin'
+[1.988s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/lib/pkgconfig/cpp_action_client.pc'
+[1.988s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/lib/python3.10/site-packages'
+[1.989s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/bin'
+[1.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/package.ps1'
+[1.990s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/package.dsv'
+[1.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/package.sh'
+[1.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/package.bash'
+[1.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/package.zsh'
+[1.994s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/colcon-core/packages/cpp_action_client)
+[1.995s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_action_client)
+[1.995s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client' for CMake module files
+[1.996s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client' for CMake config files
+[1.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_action_client', 'cmake_prefix_path')
+[1.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/hook/cmake_prefix_path.ps1'
+[1.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/hook/cmake_prefix_path.dsv'
+[1.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/hook/cmake_prefix_path.sh'
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/lib'
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/bin'
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/lib/pkgconfig/cpp_action_client.pc'
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/lib/python3.10/site-packages'
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/bin'
+[2.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/package.ps1'
+[2.001s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/package.dsv'
+[2.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/package.sh'
+[2.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/package.bash'
+[2.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/cpp_action_client/package.zsh'
+[2.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wudad10/Fold1/ros2/4_action/install/cpp_action_client/share/colcon-core/packages/cpp_action_client)
+[2.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wudad10/Fold1/ros2/4_action/src/py_action_server': PYTHONPATH=/home/wudad10/Fold1/ros2/4_action/build/py_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/4_action/install/py_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_action_server build --build-base /home/wudad10/Fold1/ros2/4_action/build/py_action_server/build install --record /home/wudad10/Fold1/ros2/4_action/build/py_action_server/install.log --single-version-externally-managed install_data
+[2.462s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/py_action_server' for CMake module files
+[2.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wudad10/Fold1/ros2/4_action/src/py_action_server' returned '0': PYTHONPATH=/home/wudad10/Fold1/ros2/4_action/build/py_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/4_action/install/py_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_action_server build --build-base /home/wudad10/Fold1/ros2/4_action/build/py_action_server/build install --record /home/wudad10/Fold1/ros2/4_action/build/py_action_server/install.log --single-version-externally-managed install_data
+[2.463s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/py_action_server' for CMake config files
+[2.463s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/lib'
+[2.464s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/bin'
+[2.464s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/lib/pkgconfig/py_action_server.pc'
+[2.464s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/lib/python3.10/site-packages'
+[2.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_server', 'pythonpath')
+[2.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/share/py_action_server/hook/pythonpath.ps1'
+[2.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/share/py_action_server/hook/pythonpath.dsv'
+[2.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/share/py_action_server/hook/pythonpath.sh'
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/bin'
+[2.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_action_server)
+[2.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/share/py_action_server/package.ps1'
+[2.467s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/share/py_action_server/package.dsv'
+[2.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/share/py_action_server/package.sh'
+[2.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/share/py_action_server/package.bash'
+[2.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/share/py_action_server/package.zsh'
+[2.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wudad10/Fold1/ros2/4_action/install/py_action_server/share/colcon-core/packages/py_action_server)
+[2.470s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.470s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.471s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.471s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.477s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.477s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.477s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.495s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.496s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wudad10/Fold1/ros2/4_action/install/local_setup.ps1'
+[2.497s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wudad10/Fold1/ros2/4_action/install/_local_setup_util_ps1.py'
+[2.500s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wudad10/Fold1/ros2/4_action/install/setup.ps1'
+[2.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wudad10/Fold1/ros2/4_action/install/local_setup.sh'
+[2.503s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wudad10/Fold1/ros2/4_action/install/_local_setup_util_sh.py'
+[2.504s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wudad10/Fold1/ros2/4_action/install/setup.sh'
+[2.506s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wudad10/Fold1/ros2/4_action/install/local_setup.bash'
+[2.507s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wudad10/Fold1/ros2/4_action/install/setup.bash'
+[2.509s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wudad10/Fold1/ros2/4_action/install/local_setup.zsh'
+[2.510s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wudad10/Fold1/ros2/4_action/install/setup.zsh'

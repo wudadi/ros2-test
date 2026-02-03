@@ -1,0 +1,3 @@
+[console_scripts]
+py_param_node = py_param_node.py_param_node:main
+

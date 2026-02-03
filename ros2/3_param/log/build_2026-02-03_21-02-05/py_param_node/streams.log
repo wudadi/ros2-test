@@ -1,0 +1,33 @@
+[0.846s] Invoking command in '/home/wudad10/Fold1/ros2/3_param/src/py_param_node': PYTHONPATH=/home/wudad10/Fold1/ros2/3_param/build/py_param_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_param_node build --build-base /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build install --record /home/wudad10/Fold1/ros2/3_param/build/py_param_node/install.log --single-version-externally-managed install_data
+[1.085s] running egg_info
+[1.085s] creating ../../build/py_param_node/py_param_node.egg-info
+[1.085s] writing ../../build/py_param_node/py_param_node.egg-info/PKG-INFO
+[1.085s] writing dependency_links to ../../build/py_param_node/py_param_node.egg-info/dependency_links.txt
+[1.085s] writing entry points to ../../build/py_param_node/py_param_node.egg-info/entry_points.txt
+[1.086s] writing requirements to ../../build/py_param_node/py_param_node.egg-info/requires.txt
+[1.086s] writing top-level names to ../../build/py_param_node/py_param_node.egg-info/top_level.txt
+[1.086s] writing manifest file '../../build/py_param_node/py_param_node.egg-info/SOURCES.txt'
+[1.088s] reading manifest file '../../build/py_param_node/py_param_node.egg-info/SOURCES.txt'
+[1.088s] writing manifest file '../../build/py_param_node/py_param_node.egg-info/SOURCES.txt'
+[1.089s] running build
+[1.089s] running build_py
+[1.089s] creating /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build
+[1.089s] creating /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build/lib
+[1.089s] creating /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build/lib/py_param_node
+[1.089s] copying py_param_node/__init__.py -> /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build/lib/py_param_node
+[1.089s] running install
+[1.090s] running install_lib
+[1.090s] creating /home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages/py_param_node
+[1.090s] copying /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build/lib/py_param_node/__init__.py -> /home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages/py_param_node
+[1.091s] byte-compiling /home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages/py_param_node/__init__.py to __init__.cpython-310.pyc
+[1.091s] running install_data
+[1.091s] creating /home/wudad10/Fold1/ros2/3_param/install/py_param_node/share/ament_index
+[1.091s] creating /home/wudad10/Fold1/ros2/3_param/install/py_param_node/share/ament_index/resource_index
+[1.091s] creating /home/wudad10/Fold1/ros2/3_param/install/py_param_node/share/ament_index/resource_index/packages
+[1.091s] copying resource/py_param_node -> /home/wudad10/Fold1/ros2/3_param/install/py_param_node/share/ament_index/resource_index/packages
+[1.092s] copying package.xml -> /home/wudad10/Fold1/ros2/3_param/install/py_param_node/share/py_param_node
+[1.092s] running install_egg_info
+[1.093s] Copying ../../build/py_param_node/py_param_node.egg-info to /home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages/py_param_node-0.0.0-py3.10.egg-info
+[1.094s] running install_scripts
+[1.114s] writing list of installed files to '/home/wudad10/Fold1/ros2/3_param/build/py_param_node/install.log'
+[1.148s] Invoked command in '/home/wudad10/Fold1/ros2/3_param/src/py_param_node' returned '0': PYTHONPATH=/home/wudad10/Fold1/ros2/3_param/build/py_param_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_param_node build --build-base /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build install --record /home/wudad10/Fold1/ros2/3_param/build/py_param_node/install.log --single-version-externally-managed install_data

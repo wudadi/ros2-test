@@ -1,0 +1,54 @@
+[0.032s] Invoking command in '/home/wudad10/Fold1/ros2/2_service/build/cpp_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/2_service/install/py_server:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/2_service/build/cpp_server -- -j4 -l4
+[0.072s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.277s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.347s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.354s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.379s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.405s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.429s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.504s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.511s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.697s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.844s] -- Found my_interfaces: 0.0.0 (/home/wudad10/Fold1/ros2/2_service/install/my_interfaces/share/my_interfaces/cmake)
+[0.864s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.976s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.976s] -- Configured cppcheck include dirs: 
+[0.976s] -- Configured cppcheck exclude dirs and/or files: 
+[0.976s] -- Added test 'lint_cmake' to check CMake code style
+[0.977s] -- Added test 'uncrustify' to check C / C++ code style
+[0.978s] -- Configured uncrustify additional arguments: 
+[0.978s] -- Added test 'xmllint' to check XML markup files
+[0.982s] -- Configuring done
+[1.002s] -- Generating done
+[1.009s] -- Build files have been written to: /home/wudad10/Fold1/ros2/2_service/build/cpp_server
+[1.046s] [35m[1mConsolidate compiler generated dependencies of target cpp_client[0m
+[1.058s] [35m[1mConsolidate compiler generated dependencies of target cpp_server[0m
+[1.081s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_client.dir/src/cpp_client.cpp.o[0m
+[1.091s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_server.dir/src/cpp_server.cpp.o[0m
+[6.182s] [ 75%] [32m[1mLinking CXX executable cpp_client[0m
+[6.191s] [100%] [32m[1mLinking CXX executable cpp_server[0m
+[6.470s] [100%] Built target cpp_server
+[6.479s] [100%] Built target cpp_client
+[6.505s] Invoked command in '/home/wudad10/Fold1/ros2/2_service/build/cpp_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/2_service/install/py_server:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/2_service/build/cpp_server -- -j4 -l4
+[6.513s] Invoking command in '/home/wudad10/Fold1/ros2/2_service/build/cpp_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/2_service/install/py_server:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --install /home/wudad10/Fold1/ros2/2_service/build/cpp_server
+[6.526s] -- Install configuration: ""
+[6.528s] -- Installing: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/lib/cpp_server/cpp_server
+[6.530s] -- Set runtime path of "/home/wudad10/Fold1/ros2/2_service/install/cpp_server/lib/cpp_server/cpp_server" to ""
+[6.531s] -- Installing: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/lib/cpp_server/cpp_client
+[6.533s] -- Set runtime path of "/home/wudad10/Fold1/ros2/2_service/install/cpp_server/lib/cpp_server/cpp_client" to ""
+[6.533s] -- Up-to-date: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/ament_index/resource_index/package_run_dependencies/cpp_server
+[6.535s] -- Installing: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/ament_index/resource_index/parent_prefix_path/cpp_server
+[6.538s] -- Up-to-date: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/cpp_server/environment/ament_prefix_path.sh
+[6.540s] -- Installing: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/cpp_server/environment/ament_prefix_path.dsv
+[6.540s] -- Up-to-date: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/cpp_server/environment/path.sh
+[6.543s] -- Installing: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/cpp_server/environment/path.dsv
+[6.543s] -- Up-to-date: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/cpp_server/local_setup.bash
+[6.543s] -- Up-to-date: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/cpp_server/local_setup.sh
+[6.543s] -- Up-to-date: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/cpp_server/local_setup.zsh
+[6.543s] -- Installing: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/cpp_server/local_setup.dsv
+[6.543s] -- Installing: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/cpp_server/package.dsv
+[6.543s] -- Up-to-date: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/ament_index/resource_index/packages/cpp_server
+[6.543s] -- Up-to-date: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/cpp_server/cmake/cpp_serverConfig.cmake
+[6.543s] -- Up-to-date: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/cpp_server/cmake/cpp_serverConfig-version.cmake
+[6.543s] -- Up-to-date: /home/wudad10/Fold1/ros2/2_service/install/cpp_server/share/cpp_server/package.xml
+[6.551s] Invoked command in '/home/wudad10/Fold1/ros2/2_service/build/cpp_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/ros2/2_service/install/py_server:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --install /home/wudad10/Fold1/ros2/2_service/build/cpp_server

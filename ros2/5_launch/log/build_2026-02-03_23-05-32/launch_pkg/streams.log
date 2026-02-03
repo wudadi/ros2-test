@@ -1,0 +1,35 @@
+[0.649s] Invoking command in '/home/wudad10/Fold1/ros2/5_launch/src/launch_pkg': PYTHONPATH=/home/wudad10/Fold1/ros2/5_launch/build/launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/5_launch/install/launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_pkg build --build-base /home/wudad10/Fold1/ros2/5_launch/build/launch_pkg/build install --record /home/wudad10/Fold1/ros2/5_launch/build/launch_pkg/install.log --single-version-externally-managed install_data
+[0.890s] running egg_info
+[0.890s] creating ../../build/launch_pkg/launch_pkg.egg-info
+[0.891s] writing ../../build/launch_pkg/launch_pkg.egg-info/PKG-INFO
+[0.891s] writing dependency_links to ../../build/launch_pkg/launch_pkg.egg-info/dependency_links.txt
+[0.892s] writing entry points to ../../build/launch_pkg/launch_pkg.egg-info/entry_points.txt
+[0.892s] writing requirements to ../../build/launch_pkg/launch_pkg.egg-info/requires.txt
+[0.892s] writing top-level names to ../../build/launch_pkg/launch_pkg.egg-info/top_level.txt
+[0.892s] writing manifest file '../../build/launch_pkg/launch_pkg.egg-info/SOURCES.txt'
+[0.893s] reading manifest file '../../build/launch_pkg/launch_pkg.egg-info/SOURCES.txt'
+[0.894s] writing manifest file '../../build/launch_pkg/launch_pkg.egg-info/SOURCES.txt'
+[0.895s] running build
+[0.895s] running build_py
+[0.895s] creating /home/wudad10/Fold1/ros2/5_launch/build/launch_pkg/build
+[0.895s] creating /home/wudad10/Fold1/ros2/5_launch/build/launch_pkg/build/lib
+[0.895s] creating /home/wudad10/Fold1/ros2/5_launch/build/launch_pkg/build/lib/launch_pkg
+[0.895s] copying launch_pkg/__init__.py -> /home/wudad10/Fold1/ros2/5_launch/build/launch_pkg/build/lib/launch_pkg
+[0.895s] running install
+[0.895s] running install_lib
+[0.896s] creating /home/wudad10/Fold1/ros2/5_launch/install/launch_pkg/lib/python3.10/site-packages/launch_pkg
+[0.896s] copying /home/wudad10/Fold1/ros2/5_launch/build/launch_pkg/build/lib/launch_pkg/__init__.py -> /home/wudad10/Fold1/ros2/5_launch/install/launch_pkg/lib/python3.10/site-packages/launch_pkg
+[0.897s] byte-compiling /home/wudad10/Fold1/ros2/5_launch/install/launch_pkg/lib/python3.10/site-packages/launch_pkg/__init__.py to __init__.cpython-310.pyc
+[0.897s] running install_data
+[0.897s] creating /home/wudad10/Fold1/ros2/5_launch/install/launch_pkg/share/ament_index
+[0.897s] creating /home/wudad10/Fold1/ros2/5_launch/install/launch_pkg/share/ament_index/resource_index
+[0.897s] creating /home/wudad10/Fold1/ros2/5_launch/install/launch_pkg/share/ament_index/resource_index/packages
+[0.897s] copying resource/launch_pkg -> /home/wudad10/Fold1/ros2/5_launch/install/launch_pkg/share/ament_index/resource_index/packages
+[0.898s] copying package.xml -> /home/wudad10/Fold1/ros2/5_launch/install/launch_pkg/share/launch_pkg
+[0.898s] creating /home/wudad10/Fold1/ros2/5_launch/install/launch_pkg/share/launch_pkg/launch
+[0.898s] copying launch/action.launch.py -> /home/wudad10/Fold1/ros2/5_launch/install/launch_pkg/share/launch_pkg/launch
+[0.898s] running install_egg_info
+[0.900s] Copying ../../build/launch_pkg/launch_pkg.egg-info to /home/wudad10/Fold1/ros2/5_launch/install/launch_pkg/lib/python3.10/site-packages/launch_pkg-0.0.0-py3.10.egg-info
+[0.901s] running install_scripts
+[0.920s] writing list of installed files to '/home/wudad10/Fold1/ros2/5_launch/build/launch_pkg/install.log'
+[0.955s] Invoked command in '/home/wudad10/Fold1/ros2/5_launch/src/launch_pkg' returned '0': PYTHONPATH=/home/wudad10/Fold1/ros2/5_launch/build/launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/5_launch/install/launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_pkg build --build-base /home/wudad10/Fold1/ros2/5_launch/build/launch_pkg/build install --record /home/wudad10/Fold1/ros2/5_launch/build/launch_pkg/install.log --single-version-externally-managed install_data

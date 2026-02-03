@@ -1,0 +1,9 @@
+[0.025s] Invoking command in '/home/wudad10/Fold1/ros2/3_param/build/cpp_param_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/3_param/build/cpp_param_node -- -j4 -l4
+[0.107s] [ 50%] [32m[1mLinking CXX executable cpp_param_node[0m
+[0.206s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.206s] (.text+0x1b): undefined reference to `main'
+[0.209s] collect2: error: ld returned 1 exit status
+[0.211s] gmake[2]: *** [CMakeFiles/cpp_param_node.dir/build.make:151：cpp_param_node] 错误 1
+[0.211s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/cpp_param_node.dir/all] 错误 2
+[0.212s] gmake: *** [Makefile:146：all] 错误 2
+[0.322s] Invoked command in '/home/wudad10/Fold1/ros2/3_param/build/cpp_param_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/3_param/build/cpp_param_node -- -j4 -l4

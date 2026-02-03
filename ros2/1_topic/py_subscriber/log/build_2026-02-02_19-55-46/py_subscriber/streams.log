@@ -1,0 +1,37 @@
+[0.894s] Invoking command in '/home/wudad10/Fold1/ros2/1_topic/py_subscriber/src/py_subscriber': PYTHONPATH=/home/wudad10/Fold1/ros2/1_topic/py_subscriber/build/py_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/1_topic/py_subscriber/install/py_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_subscriber build --build-base /home/wudad10/Fold1/ros2/1_topic/py_subscriber/build/py_subscriber/build install --record /home/wudad10/Fold1/ros2/1_topic/py_subscriber/build/py_subscriber/install.log --single-version-externally-managed install_data
+[1.131s] running egg_info
+[1.131s] creating ../../build/py_subscriber/py_subscriber.egg-info
+[1.131s] writing ../../build/py_subscriber/py_subscriber.egg-info/PKG-INFO
+[1.131s] writing dependency_links to ../../build/py_subscriber/py_subscriber.egg-info/dependency_links.txt
+[1.131s] writing entry points to ../../build/py_subscriber/py_subscriber.egg-info/entry_points.txt
+[1.131s] writing requirements to ../../build/py_subscriber/py_subscriber.egg-info/requires.txt
+[1.131s] writing top-level names to ../../build/py_subscriber/py_subscriber.egg-info/top_level.txt
+[1.131s] writing manifest file '../../build/py_subscriber/py_subscriber.egg-info/SOURCES.txt'
+[1.134s] reading manifest file '../../build/py_subscriber/py_subscriber.egg-info/SOURCES.txt'
+[1.134s] writing manifest file '../../build/py_subscriber/py_subscriber.egg-info/SOURCES.txt'
+[1.134s] running build
+[1.134s] running build_py
+[1.134s] creating /home/wudad10/Fold1/ros2/1_topic/py_subscriber/build/py_subscriber/build
+[1.134s] creating /home/wudad10/Fold1/ros2/1_topic/py_subscriber/build/py_subscriber/build/lib
+[1.134s] creating /home/wudad10/Fold1/ros2/1_topic/py_subscriber/build/py_subscriber/build/lib/py_subscriber
+[1.134s] copying py_subscriber/py_subscriber.py -> /home/wudad10/Fold1/ros2/1_topic/py_subscriber/build/py_subscriber/build/lib/py_subscriber
+[1.134s] copying py_subscriber/__init__.py -> /home/wudad10/Fold1/ros2/1_topic/py_subscriber/build/py_subscriber/build/lib/py_subscriber
+[1.134s] running install
+[1.135s] running install_lib
+[1.135s] creating /home/wudad10/Fold1/ros2/1_topic/py_subscriber/install/py_subscriber/lib/python3.10/site-packages/py_subscriber
+[1.135s] copying /home/wudad10/Fold1/ros2/1_topic/py_subscriber/build/py_subscriber/build/lib/py_subscriber/py_subscriber.py -> /home/wudad10/Fold1/ros2/1_topic/py_subscriber/install/py_subscriber/lib/python3.10/site-packages/py_subscriber
+[1.135s] copying /home/wudad10/Fold1/ros2/1_topic/py_subscriber/build/py_subscriber/build/lib/py_subscriber/__init__.py -> /home/wudad10/Fold1/ros2/1_topic/py_subscriber/install/py_subscriber/lib/python3.10/site-packages/py_subscriber
+[1.136s] byte-compiling /home/wudad10/Fold1/ros2/1_topic/py_subscriber/install/py_subscriber/lib/python3.10/site-packages/py_subscriber/py_subscriber.py to py_subscriber.cpython-310.pyc
+[1.136s] byte-compiling /home/wudad10/Fold1/ros2/1_topic/py_subscriber/install/py_subscriber/lib/python3.10/site-packages/py_subscriber/__init__.py to __init__.cpython-310.pyc
+[1.136s] running install_data
+[1.136s] creating /home/wudad10/Fold1/ros2/1_topic/py_subscriber/install/py_subscriber/share/ament_index
+[1.136s] creating /home/wudad10/Fold1/ros2/1_topic/py_subscriber/install/py_subscriber/share/ament_index/resource_index
+[1.136s] creating /home/wudad10/Fold1/ros2/1_topic/py_subscriber/install/py_subscriber/share/ament_index/resource_index/packages
+[1.137s] copying resource/py_subscriber -> /home/wudad10/Fold1/ros2/1_topic/py_subscriber/install/py_subscriber/share/ament_index/resource_index/packages
+[1.137s] copying package.xml -> /home/wudad10/Fold1/ros2/1_topic/py_subscriber/install/py_subscriber/share/py_subscriber
+[1.137s] running install_egg_info
+[1.139s] Copying ../../build/py_subscriber/py_subscriber.egg-info to /home/wudad10/Fold1/ros2/1_topic/py_subscriber/install/py_subscriber/lib/python3.10/site-packages/py_subscriber-0.0.0-py3.10.egg-info
+[1.140s] running install_scripts
+[1.159s] Installing py_listener script to /home/wudad10/Fold1/ros2/1_topic/py_subscriber/install/py_subscriber/lib/py_subscriber
+[1.160s] writing list of installed files to '/home/wudad10/Fold1/ros2/1_topic/py_subscriber/build/py_subscriber/install.log'
+[1.192s] Invoked command in '/home/wudad10/Fold1/ros2/1_topic/py_subscriber/src/py_subscriber' returned '0': PYTHONPATH=/home/wudad10/Fold1/ros2/1_topic/py_subscriber/build/py_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/1_topic/py_subscriber/install/py_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_subscriber build --build-base /home/wudad10/Fold1/ros2/1_topic/py_subscriber/build/py_subscriber/build install --record /home/wudad10/Fold1/ros2/1_topic/py_subscriber/build/py_subscriber/install.log --single-version-externally-managed install_data

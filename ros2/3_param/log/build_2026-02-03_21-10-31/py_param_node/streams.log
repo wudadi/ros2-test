@@ -1,0 +1,24 @@
+[0.743s] Invoking command in '/home/wudad10/Fold1/ros2/3_param/src/py_param_node': PYTHONPATH=/home/wudad10/Fold1/ros2/3_param/build/py_param_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_param_node build --build-base /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build install --record /home/wudad10/Fold1/ros2/3_param/build/py_param_node/install.log --single-version-externally-managed install_data
+[0.963s] running egg_info
+[0.963s] writing ../../build/py_param_node/py_param_node.egg-info/PKG-INFO
+[0.964s] writing dependency_links to ../../build/py_param_node/py_param_node.egg-info/dependency_links.txt
+[0.964s] writing entry points to ../../build/py_param_node/py_param_node.egg-info/entry_points.txt
+[0.964s] writing requirements to ../../build/py_param_node/py_param_node.egg-info/requires.txt
+[0.964s] writing top-level names to ../../build/py_param_node/py_param_node.egg-info/top_level.txt
+[0.967s] reading manifest file '../../build/py_param_node/py_param_node.egg-info/SOURCES.txt'
+[0.968s] writing manifest file '../../build/py_param_node/py_param_node.egg-info/SOURCES.txt'
+[0.969s] running build
+[0.969s] running build_py
+[0.969s] copying py_param_node/py_param_node.py -> /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build/lib/py_param_node
+[0.969s] running install
+[0.969s] running install_lib
+[0.970s] copying /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build/lib/py_param_node/py_param_node.py -> /home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages/py_param_node
+[0.970s] byte-compiling /home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages/py_param_node/py_param_node.py to py_param_node.cpython-310.pyc
+[0.971s] running install_data
+[0.971s] running install_egg_info
+[0.973s] removing '/home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages/py_param_node-0.0.0-py3.10.egg-info' (and everything under it)
+[0.973s] Copying ../../build/py_param_node/py_param_node.egg-info to /home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages/py_param_node-0.0.0-py3.10.egg-info
+[0.974s] running install_scripts
+[0.993s] Installing py_param_node script to /home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/py_param_node
+[0.993s] writing list of installed files to '/home/wudad10/Fold1/ros2/3_param/build/py_param_node/install.log'
+[1.026s] Invoked command in '/home/wudad10/Fold1/ros2/3_param/src/py_param_node' returned '0': PYTHONPATH=/home/wudad10/Fold1/ros2/3_param/build/py_param_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_param_node build --build-base /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build install --record /home/wudad10/Fold1/ros2/3_param/build/py_param_node/install.log --single-version-externally-managed install_data

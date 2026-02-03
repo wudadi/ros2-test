@@ -1,0 +1,53 @@
+[0.024s] Invoking command in '/home/wudad10/Fold1/ros2/3_param/build/cpp_param_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake /home/wudad10/Fold1/ros2/3_param/src/cpp_param_node -DCMAKE_INSTALL_PREFIX=/home/wudad10/Fold1/ros2/3_param/install/cpp_param_node
+[0.137s] -- The C compiler identification is GNU 11.4.0
+[0.231s] -- The CXX compiler identification is GNU 11.4.0
+[0.248s] -- Detecting C compiler ABI info
+[0.352s] -- Detecting C compiler ABI info - done
+[0.359s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.360s] -- Detecting C compile features
+[0.361s] -- Detecting C compile features - done
+[0.366s] -- Detecting CXX compiler ABI info
+[0.481s] -- Detecting CXX compiler ABI info - done
+[0.485s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.485s] -- Detecting CXX compile features
+[0.486s] -- Detecting CXX compile features - done
+[0.492s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.675s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.829s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.929s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.006s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.015s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.029s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.057s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.088s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.172s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.182s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.336s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.372s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.424s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.441s] -- Looking for pthread.h
+[1.545s] -- Looking for pthread.h - found
+[1.545s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.644s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.646s] -- Found Threads: TRUE  
+[1.732s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.732s] -- Configured cppcheck include dirs: 
+[1.732s] -- Configured cppcheck exclude dirs and/or files: 
+[1.734s] -- Added test 'lint_cmake' to check CMake code style
+[1.736s] -- Added test 'uncrustify' to check C / C++ code style
+[1.736s] -- Configured uncrustify additional arguments: 
+[1.738s] -- Added test 'xmllint' to check XML markup files
+[1.741s] -- Configuring done
+[1.750s] -- Generating done
+[1.754s] -- Build files have been written to: /home/wudad10/Fold1/ros2/3_param/build/cpp_param_node
+[1.765s] Invoked command in '/home/wudad10/Fold1/ros2/3_param/build/cpp_param_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake /home/wudad10/Fold1/ros2/3_param/src/cpp_param_node -DCMAKE_INSTALL_PREFIX=/home/wudad10/Fold1/ros2/3_param/install/cpp_param_node
+[1.768s] Invoking command in '/home/wudad10/Fold1/ros2/3_param/build/cpp_param_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/3_param/build/cpp_param_node -- -j4 -l4
+[1.835s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_param_node.dir/src/cpp_param_node.cpp.o[0m
+[1.869s] [100%] [32m[1mLinking CXX executable cpp_param_node[0m
+[1.929s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[1.929s] (.text+0x1b): undefined reference to `main'
+[1.932s] collect2: error: ld returned 1 exit status
+[1.934s] gmake[2]: *** [CMakeFiles/cpp_param_node.dir/build.make:151：cpp_param_node] 错误 1
+[1.935s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/cpp_param_node.dir/all] 错误 2
+[1.936s] gmake: *** [Makefile:146：all] 错误 2
+[1.940s] Invoked command in '/home/wudad10/Fold1/ros2/3_param/build/cpp_param_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/3_param/build/cpp_param_node -- -j4 -l4

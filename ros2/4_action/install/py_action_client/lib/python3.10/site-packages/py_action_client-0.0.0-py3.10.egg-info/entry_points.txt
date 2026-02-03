@@ -1,0 +1,3 @@
+[console_scripts]
+py_action_client = py_action_client.client:main
+

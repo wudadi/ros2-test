@@ -1,0 +1,3 @@
+[console_scripts]
+py_action_server = py_action_server.server:main
+

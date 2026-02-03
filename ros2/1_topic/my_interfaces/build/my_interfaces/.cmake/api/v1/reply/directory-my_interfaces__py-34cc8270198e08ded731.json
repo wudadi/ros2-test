@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_interfaces__py",
+		"source" : "/home/wudad10/Fold1/ros2/1_topic/my_interfaces/build/my_interfaces/my_interfaces__py"
+	}
+}

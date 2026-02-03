@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/py_action_client/py_action_client.egg-info/PKG-INFO
+../../build/py_action_client/py_action_client.egg-info/SOURCES.txt
+../../build/py_action_client/py_action_client.egg-info/dependency_links.txt
+../../build/py_action_client/py_action_client.egg-info/entry_points.txt
+../../build/py_action_client/py_action_client.egg-info/requires.txt
+../../build/py_action_client/py_action_client.egg-info/top_level.txt
+../../build/py_action_client/py_action_client.egg-info/zip-safe
+py_action_client/__init__.py
+py_action_client/client.py
+resource/py_action_client
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

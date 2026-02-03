@@ -1,0 +1,22 @@
+[0.775s] Invoking command in '/home/wudad10/Fold1/ros2/2_service/src/py_server': PYTHONPATH=/home/wudad10/Fold1/ros2/2_service/build/py_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/2_service/install/py_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_server build --build-base /home/wudad10/Fold1/ros2/2_service/build/py_server/build install --record /home/wudad10/Fold1/ros2/2_service/build/py_server/install.log --single-version-externally-managed install_data
+[1.015s] running egg_info
+[1.016s] writing ../../build/py_server/py_server.egg-info/PKG-INFO
+[1.016s] writing dependency_links to ../../build/py_server/py_server.egg-info/dependency_links.txt
+[1.017s] writing entry points to ../../build/py_server/py_server.egg-info/entry_points.txt
+[1.017s] writing requirements to ../../build/py_server/py_server.egg-info/requires.txt
+[1.018s] writing top-level names to ../../build/py_server/py_server.egg-info/top_level.txt
+[1.018s] reading manifest file '../../build/py_server/py_server.egg-info/SOURCES.txt'
+[1.020s] writing manifest file '../../build/py_server/py_server.egg-info/SOURCES.txt'
+[1.021s] running build
+[1.021s] running build_py
+[1.021s] running install
+[1.021s] running install_lib
+[1.022s] running install_data
+[1.022s] running install_egg_info
+[1.026s] removing '/home/wudad10/Fold1/ros2/2_service/install/py_server/lib/python3.10/site-packages/py_server-0.0.0-py3.10.egg-info' (and everything under it)
+[1.026s] Copying ../../build/py_server/py_server.egg-info to /home/wudad10/Fold1/ros2/2_service/install/py_server/lib/python3.10/site-packages/py_server-0.0.0-py3.10.egg-info
+[1.026s] running install_scripts
+[1.047s] Installing py_client script to /home/wudad10/Fold1/ros2/2_service/install/py_server/lib/py_server
+[1.048s] Installing py_server script to /home/wudad10/Fold1/ros2/2_service/install/py_server/lib/py_server
+[1.048s] writing list of installed files to '/home/wudad10/Fold1/ros2/2_service/build/py_server/install.log'
+[1.080s] Invoked command in '/home/wudad10/Fold1/ros2/2_service/src/py_server' returned '0': PYTHONPATH=/home/wudad10/Fold1/ros2/2_service/build/py_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/2_service/install/py_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_server build --build-base /home/wudad10/Fold1/ros2/2_service/build/py_server/build install --record /home/wudad10/Fold1/ros2/2_service/build/py_server/install.log --single-version-externally-managed install_data

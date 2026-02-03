@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/py_publisher/py_publisher.egg-info
+writing ../../build/py_publisher/py_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_publisher/py_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/py_publisher/py_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/py_publisher/py_publisher.egg-info/requires.txt
+writing top-level names to ../../build/py_publisher/py_publisher.egg-info/top_level.txt
+writing manifest file '../../build/py_publisher/py_publisher.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_publisher/py_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_publisher/py_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wudad10/Fold1/ros2/1_topic/publisher/build/py_publisher/build
+creating /home/wudad10/Fold1/ros2/1_topic/publisher/build/py_publisher/build/lib
+creating /home/wudad10/Fold1/ros2/1_topic/publisher/build/py_publisher/build/lib/py_publisher
+copying py_publisher/py_publisher.py -> /home/wudad10/Fold1/ros2/1_topic/publisher/build/py_publisher/build/lib/py_publisher
+copying py_publisher/__init__.py -> /home/wudad10/Fold1/ros2/1_topic/publisher/build/py_publisher/build/lib/py_publisher
+running install
+running install_lib
+creating /home/wudad10/Fold1/ros2/1_topic/publisher/install/py_publisher/lib/python3.10/site-packages/py_publisher
+copying /home/wudad10/Fold1/ros2/1_topic/publisher/build/py_publisher/build/lib/py_publisher/py_publisher.py -> /home/wudad10/Fold1/ros2/1_topic/publisher/install/py_publisher/lib/python3.10/site-packages/py_publisher
+copying /home/wudad10/Fold1/ros2/1_topic/publisher/build/py_publisher/build/lib/py_publisher/__init__.py -> /home/wudad10/Fold1/ros2/1_topic/publisher/install/py_publisher/lib/python3.10/site-packages/py_publisher
+byte-compiling /home/wudad10/Fold1/ros2/1_topic/publisher/install/py_publisher/lib/python3.10/site-packages/py_publisher/py_publisher.py to py_publisher.cpython-310.pyc
+byte-compiling /home/wudad10/Fold1/ros2/1_topic/publisher/install/py_publisher/lib/python3.10/site-packages/py_publisher/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wudad10/Fold1/ros2/1_topic/publisher/install/py_publisher/share/ament_index
+creating /home/wudad10/Fold1/ros2/1_topic/publisher/install/py_publisher/share/ament_index/resource_index
+creating /home/wudad10/Fold1/ros2/1_topic/publisher/install/py_publisher/share/ament_index/resource_index/packages
+copying resource/py_publisher -> /home/wudad10/Fold1/ros2/1_topic/publisher/install/py_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /home/wudad10/Fold1/ros2/1_topic/publisher/install/py_publisher/share/py_publisher
+running install_egg_info
+Copying ../../build/py_publisher/py_publisher.egg-info to /home/wudad10/Fold1/ros2/1_topic/publisher/install/py_publisher/lib/python3.10/site-packages/py_publisher-0.0.0-py3.10.egg-info
+running install_scripts
+Installing py_publisher script to /home/wudad10/Fold1/ros2/1_topic/publisher/install/py_publisher/lib/py_publisher
+writing list of installed files to '/home/wudad10/Fold1/ros2/1_topic/publisher/build/py_publisher/install.log'

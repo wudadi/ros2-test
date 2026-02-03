@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/py_param_node/py_param_node.egg-info
+writing ../../build/py_param_node/py_param_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_param_node/py_param_node.egg-info/dependency_links.txt
+writing entry points to ../../build/py_param_node/py_param_node.egg-info/entry_points.txt
+writing requirements to ../../build/py_param_node/py_param_node.egg-info/requires.txt
+writing top-level names to ../../build/py_param_node/py_param_node.egg-info/top_level.txt
+writing manifest file '../../build/py_param_node/py_param_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_param_node/py_param_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_param_node/py_param_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build
+creating /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build/lib
+creating /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build/lib/py_param_node
+copying py_param_node/__init__.py -> /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build/lib/py_param_node
+running install
+running install_lib
+creating /home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages/py_param_node
+copying /home/wudad10/Fold1/ros2/3_param/build/py_param_node/build/lib/py_param_node/__init__.py -> /home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages/py_param_node
+byte-compiling /home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages/py_param_node/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wudad10/Fold1/ros2/3_param/install/py_param_node/share/ament_index
+creating /home/wudad10/Fold1/ros2/3_param/install/py_param_node/share/ament_index/resource_index
+creating /home/wudad10/Fold1/ros2/3_param/install/py_param_node/share/ament_index/resource_index/packages
+copying resource/py_param_node -> /home/wudad10/Fold1/ros2/3_param/install/py_param_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/wudad10/Fold1/ros2/3_param/install/py_param_node/share/py_param_node
+running install_egg_info
+Copying ../../build/py_param_node/py_param_node.egg-info to /home/wudad10/Fold1/ros2/3_param/install/py_param_node/lib/python3.10/site-packages/py_param_node-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/wudad10/Fold1/ros2/3_param/build/py_param_node/install.log'

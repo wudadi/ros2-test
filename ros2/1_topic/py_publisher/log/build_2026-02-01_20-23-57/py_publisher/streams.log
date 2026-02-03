@@ -1,0 +1,21 @@
+[0.764s] Invoking command in '/home/wudad10/Fold1/ros2/1_topic/py_publisher/src/py_publisher': PYTHONPATH=/home/wudad10/Fold1/ros2/1_topic/py_publisher/build/py_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/1_topic/py_publisher/install/py_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_publisher build --build-base /home/wudad10/Fold1/ros2/1_topic/py_publisher/build/py_publisher/build install --record /home/wudad10/Fold1/ros2/1_topic/py_publisher/build/py_publisher/install.log --single-version-externally-managed install_data
+[0.991s] running egg_info
+[0.992s] writing ../../build/py_publisher/py_publisher.egg-info/PKG-INFO
+[0.992s] writing dependency_links to ../../build/py_publisher/py_publisher.egg-info/dependency_links.txt
+[0.993s] writing entry points to ../../build/py_publisher/py_publisher.egg-info/entry_points.txt
+[0.993s] writing requirements to ../../build/py_publisher/py_publisher.egg-info/requires.txt
+[0.993s] writing top-level names to ../../build/py_publisher/py_publisher.egg-info/top_level.txt
+[0.995s] reading manifest file '../../build/py_publisher/py_publisher.egg-info/SOURCES.txt'
+[0.997s] writing manifest file '../../build/py_publisher/py_publisher.egg-info/SOURCES.txt'
+[0.997s] running build
+[0.997s] running build_py
+[0.997s] running install
+[0.997s] running install_lib
+[0.999s] running install_data
+[0.999s] running install_egg_info
+[1.001s] removing '/home/wudad10/Fold1/ros2/1_topic/py_publisher/install/py_publisher/lib/python3.10/site-packages/py_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[1.001s] Copying ../../build/py_publisher/py_publisher.egg-info to /home/wudad10/Fold1/ros2/1_topic/py_publisher/install/py_publisher/lib/python3.10/site-packages/py_publisher-0.0.0-py3.10.egg-info
+[1.002s] running install_scripts
+[1.023s] Installing py_publisher script to /home/wudad10/Fold1/ros2/1_topic/py_publisher/install/py_publisher/lib/py_publisher
+[1.024s] writing list of installed files to '/home/wudad10/Fold1/ros2/1_topic/py_publisher/build/py_publisher/install.log'
+[1.057s] Invoked command in '/home/wudad10/Fold1/ros2/1_topic/py_publisher/src/py_publisher' returned '0': PYTHONPATH=/home/wudad10/Fold1/ros2/1_topic/py_publisher/build/py_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/1_topic/py_publisher/install/py_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_publisher build --build-base /home/wudad10/Fold1/ros2/1_topic/py_publisher/build/py_publisher/build install --record /home/wudad10/Fold1/ros2/1_topic/py_publisher/build/py_publisher/install.log --single-version-externally-managed install_data

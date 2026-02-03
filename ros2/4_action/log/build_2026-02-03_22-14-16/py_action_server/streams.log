@@ -1,0 +1,21 @@
+[0.845s] Invoking command in '/home/wudad10/Fold1/ros2/4_action/src/py_action_server': PYTHONPATH=/home/wudad10/Fold1/ros2/4_action/build/py_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/4_action/install/py_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_action_server build --build-base /home/wudad10/Fold1/ros2/4_action/build/py_action_server/build install --record /home/wudad10/Fold1/ros2/4_action/build/py_action_server/install.log --single-version-externally-managed install_data
+[1.070s] running egg_info
+[1.071s] writing ../../build/py_action_server/py_action_server.egg-info/PKG-INFO
+[1.071s] writing dependency_links to ../../build/py_action_server/py_action_server.egg-info/dependency_links.txt
+[1.072s] writing entry points to ../../build/py_action_server/py_action_server.egg-info/entry_points.txt
+[1.072s] writing requirements to ../../build/py_action_server/py_action_server.egg-info/requires.txt
+[1.072s] writing top-level names to ../../build/py_action_server/py_action_server.egg-info/top_level.txt
+[1.074s] reading manifest file '../../build/py_action_server/py_action_server.egg-info/SOURCES.txt'
+[1.075s] writing manifest file '../../build/py_action_server/py_action_server.egg-info/SOURCES.txt'
+[1.075s] running build
+[1.075s] running build_py
+[1.076s] running install
+[1.077s] running install_lib
+[1.077s] running install_data
+[1.077s] running install_egg_info
+[1.079s] removing '/home/wudad10/Fold1/ros2/4_action/install/py_action_server/lib/python3.10/site-packages/py_action_server-0.0.0-py3.10.egg-info' (and everything under it)
+[1.080s] Copying ../../build/py_action_server/py_action_server.egg-info to /home/wudad10/Fold1/ros2/4_action/install/py_action_server/lib/python3.10/site-packages/py_action_server-0.0.0-py3.10.egg-info
+[1.080s] running install_scripts
+[1.099s] Installing py_action_server script to /home/wudad10/Fold1/ros2/4_action/install/py_action_server/lib/py_action_server
+[1.100s] writing list of installed files to '/home/wudad10/Fold1/ros2/4_action/build/py_action_server/install.log'
+[1.130s] Invoked command in '/home/wudad10/Fold1/ros2/4_action/src/py_action_server' returned '0': PYTHONPATH=/home/wudad10/Fold1/ros2/4_action/build/py_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/4_action/install/py_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_action_server build --build-base /home/wudad10/Fold1/ros2/4_action/build/py_action_server/build install --record /home/wudad10/Fold1/ros2/4_action/build/py_action_server/install.log --single-version-externally-managed install_data

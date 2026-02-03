@@ -1,0 +1,10 @@
+/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client/CMakeFiles/uninstall.dir
+/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client/CMakeFiles/cpp_action_client_uninstall.dir
+/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client/CMakeFiles/cpp_action_client.dir
+/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client/CMakeFiles/test.dir
+/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client/CMakeFiles/edit_cache.dir
+/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client/CMakeFiles/rebuild_cache.dir
+/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client/CMakeFiles/list_install_components.dir
+/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client/CMakeFiles/install.dir
+/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client/CMakeFiles/install/local.dir
+/home/wudad10/Fold1/ros2/4_action/build/cpp_action_client/CMakeFiles/install/strip.dir

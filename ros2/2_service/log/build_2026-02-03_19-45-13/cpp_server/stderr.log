@@ -1,0 +1,14 @@
+[01m[K/home/wudad10/Fold1/ros2/2_service/src/cpp_server/src/cpp_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/add_two_ints.hpp: 没有那个文件或目录
+    2 | #include [01;31m[K"example_interfaces/srv/add_two_ints.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cpp_server.dir/build.make:76：CMakeFiles/cpp_server.dir/src/cpp_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/cpp_server.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[01m[K/home/wudad10/Fold1/ros2/2_service/src/cpp_server/src/cpp_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/add_two_ints.hpp: 没有那个文件或目录
+    2 | #include [01;31m[K"example_interfaces/srv/add_two_ints.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cpp_client.dir/build.make:76：CMakeFiles/cpp_client.dir/src/cpp_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/cpp_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

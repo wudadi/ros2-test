@@ -1,0 +1,6 @@
+{
+  "package_name": "my_interfaces",
+  "non_idl_tuples": [
+    "/home/wudad10/Fold1/ros2/2_service/src/my_interfaces:srv/AddTwoInts.srv"
+  ]
+}

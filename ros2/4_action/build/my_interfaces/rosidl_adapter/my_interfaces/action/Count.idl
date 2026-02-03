@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_interfaces/action/Count.action
+// generated code does not contain a copyright notice
+
+
+module my_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Count_Goal {
+      int32 target;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Count_Result {
+      int32 final_count;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Count_Feedback {
+      int32 current;
+    };
+  };
+};
