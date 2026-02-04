@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bd132fb2dbbc8c1d00a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_tf",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_tf_broadcaster-119b36df642377f44a6f.json",
+					"name" : "cpp_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_tf_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_tf_listener-80b95ab7a3aaf3050a9d.json",
+					"name" : "cpp_tf_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_tf_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_tf_uninstall-aa75d0cc2027ad887c5d.json",
+					"name" : "cpp_tf_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f33b7a65e9cb218969d3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wudad10/Fold1/ros2/6_tf/build/cpp_tf",
+		"source" : "/home/wudad10/Fold1/ros2/6_tf/src/cpp_tf"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

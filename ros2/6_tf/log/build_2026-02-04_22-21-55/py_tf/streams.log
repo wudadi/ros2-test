@@ -1,0 +1,20 @@
+[0.921s] Invoking command in '/home/wudad10/Fold1/ros2/6_tf/src/py_tf': PYTHONPATH=/home/wudad10/Fold1/ros2/6_tf/build/py_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/6_tf/install/py_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_tf build --build-base /home/wudad10/Fold1/ros2/6_tf/build/py_tf/build install --record /home/wudad10/Fold1/ros2/6_tf/build/py_tf/install.log --single-version-externally-managed install_data
+[1.151s] running egg_info
+[1.152s] writing ../../build/py_tf/py_tf.egg-info/PKG-INFO
+[1.153s] writing dependency_links to ../../build/py_tf/py_tf.egg-info/dependency_links.txt
+[1.153s] writing entry points to ../../build/py_tf/py_tf.egg-info/entry_points.txt
+[1.155s] writing requirements to ../../build/py_tf/py_tf.egg-info/requires.txt
+[1.155s] writing top-level names to ../../build/py_tf/py_tf.egg-info/top_level.txt
+[1.157s] reading manifest file '../../build/py_tf/py_tf.egg-info/SOURCES.txt'
+[1.158s] writing manifest file '../../build/py_tf/py_tf.egg-info/SOURCES.txt'
+[1.159s] running build
+[1.159s] running build_py
+[1.159s] running install
+[1.159s] running install_lib
+[1.160s] running install_data
+[1.161s] running install_egg_info
+[1.162s] removing '/home/wudad10/Fold1/ros2/6_tf/install/py_tf/lib/python3.10/site-packages/py_tf-0.0.0-py3.10.egg-info' (and everything under it)
+[1.163s] Copying ../../build/py_tf/py_tf.egg-info to /home/wudad10/Fold1/ros2/6_tf/install/py_tf/lib/python3.10/site-packages/py_tf-0.0.0-py3.10.egg-info
+[1.164s] running install_scripts
+[1.186s] writing list of installed files to '/home/wudad10/Fold1/ros2/6_tf/build/py_tf/install.log'
+[1.222s] Invoked command in '/home/wudad10/Fold1/ros2/6_tf/src/py_tf' returned '0': PYTHONPATH=/home/wudad10/Fold1/ros2/6_tf/build/py_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/6_tf/install/py_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_tf build --build-base /home/wudad10/Fold1/ros2/6_tf/build/py_tf/build install --record /home/wudad10/Fold1/ros2/6_tf/build/py_tf/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_tf_broadcaster[0m
+[ 50%] Built target cpp_tf_broadcaster
+[35m[1mConsolidate compiler generated dependencies of target cpp_tf_listener[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/cpp_tf_listener.dir/src/cpp_tf_listener.cpp.o[0m

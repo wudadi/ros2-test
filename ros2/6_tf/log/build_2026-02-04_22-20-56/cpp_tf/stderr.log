@@ -1,0 +1,7 @@
+[01m[K/home/wudad10/Fold1/ros2/6_tf/src/cpp_tf/src/cpp_tf_listener.cpp:[m[K In constructor ‘[01m[KTfListener::TfListener()[m[K’:
+[01m[K/home/wudad10/Fold1/ros2/6_tf/src/cpp_tf/src/cpp_tf_listener.cpp:12:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   12 |       [01;31m[K1s[m[K, std::bind(&TfListener::lookup, this));
+      |       [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/cpp_tf_listener.dir/build.make:76：CMakeFiles/cpp_tf_listener.dir/src/cpp_tf_listener.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/cpp_tf_listener.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

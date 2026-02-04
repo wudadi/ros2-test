@@ -1,0 +1,12 @@
+[0.028s] Invoking command in '/home/wudad10/Fold1/ros2/6_tf/build/cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/6_tf/build/cpp_tf -- -j4 -l4
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target cpp_tf_listener[0m
+[0.155s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_tf_listener.dir/src/cpp_tf_listener.cpp.o[0m
+[0.163s] [ 75%] Built target cpp_tf_broadcaster
+[3.686s] [100%] [32m[1mLinking CXX executable cpp_tf_listener[0m
+[3.911s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[3.911s] (.text+0x1b): undefined reference to `main'
+[3.919s] collect2: error: ld returned 1 exit status
+[3.921s] gmake[2]: *** [CMakeFiles/cpp_tf_listener.dir/build.make:197：cpp_tf_listener] 错误 1
+[3.922s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/cpp_tf_listener.dir/all] 错误 2
+[3.922s] gmake: *** [Makefile:146：all] 错误 2
+[3.925s] Invoked command in '/home/wudad10/Fold1/ros2/6_tf/build/cpp_tf' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble /usr/bin/cmake --build /home/wudad10/Fold1/ros2/6_tf/build/cpp_tf -- -j4 -l4

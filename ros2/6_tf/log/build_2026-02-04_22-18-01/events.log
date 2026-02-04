@@ -1,0 +1,543 @@
+[0.000000] (-) TimerEvent: {}
+[0.000188] (cpp_tf) JobQueued: {'identifier': 'cpp_tf', 'dependencies': OrderedDict()}
+[0.000236] (py_tf) JobQueued: {'identifier': 'py_tf', 'dependencies': OrderedDict()}
+[0.000632] (cpp_tf) JobStarted: {'identifier': 'cpp_tf'}
+[0.007992] (py_tf) JobStarted: {'identifier': 'py_tf'}
+[0.018776] (cpp_tf) JobProgress: {'identifier': 'cpp_tf', 'progress': 'cmake'}
+[0.020277] (cpp_tf) Command: {'cmd': ['/usr/bin/cmake', '/home/wudad10/Fold1/ros2/6_tf/src/cpp_tf', '-DCMAKE_INSTALL_PREFIX=/home/wudad10/Fold1/ros2/6_tf/install/cpp_tf'], 'cwd': '/home/wudad10/Fold1/ros2/6_tf/build/cpp_tf', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'wudad10'), ('LC_TIME', 'zh_TW.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_agent/lib:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_msgs/lib:/home/wudad10/Fold1/chapter9/install/micro_ros_agent/lib:/home/wudad10/Fold1/chapter9/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wudad10'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/wudad10/Fold1/ros2/6_tf/src'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1137'), ('BUNDLED_DEBUGPY_PATH', '/home/wudad10/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wudad10/Fold1/chapter9/fishbot_ws/install:/home/wudad10/Fold1/chapter9/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wudad10'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wudad10'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wudad10/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/wudad10/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/home/wudad10/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/wudad10-virtual-machine:@/tmp/.ICE-unix/1107,unix/wudad10-virtual-machine:/tmp/.ICE-unix/1107'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_TW.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/88ae7d24_b80a_42fc_a58e_d73c1e5215e5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/wudad10/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-96a9e2d7645ed376.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/wudad10/.config/Code/User/workspaceStorage/93ac823d16917d2e4b72cd02d77bf9c4/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_TW.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1V8HJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c38cb37b3b.sock'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wudad10/Fold1/chapter9/fishbot_ws/install/ydlidar:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_agent:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_msgs:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_navigation2:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_description:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_bringup:/home/wudad10/Fold1/chapter9/install/ydlidar:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/micro_ros_agent:/home/wudad10/Fold1/chapter9/install/micro_ros_msgs:/home/wudad10/Fold1/chapter9/install/fishbot_description:/home/wudad10/Fold1/chapter9/install/fishbot_bringup:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_TW.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_TW.UTF-8'), ('LC_IDENTIFICATION', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wudad10/Fold1/ros2/6_tf/build/cpp_tf'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi/lib/python3.10/site-packages:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi/lib/python3.10/site-packages:/home/wudad10/Fold1/chapter9/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_TW.UTF-8'), ('LC_PAPER', 'zh_TW.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wudad10/Fold1/chapter9/fishbot_ws/install/ydlidar:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_agent:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_msgs:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_navigation2:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_description:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_bringup:/home/wudad10/Fold1/chapter9/install/ydlidar:/home/wudad10/Fold1/chapter9/install/micro_ros_agent:/home/wudad10/Fold1/chapter9/install/micro_ros_msgs:/home/wudad10/Fold1/chapter9/install/fishbot_description:/home/wudad10/Fold1/chapter9/install/fishbot_bringup:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble')]), 'shell': False}
+[0.043109] (cpp_tf) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099503] (-) TimerEvent: {}
+[0.194638] (cpp_tf) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.200049] (-) TimerEvent: {}
+[0.264917] (cpp_tf) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.291683] (cpp_tf) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.294250] (cpp_tf) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.299528] (cpp_tf) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.300902] (-) TimerEvent: {}
+[0.308723] (cpp_tf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.320469] (cpp_tf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.352478] (cpp_tf) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.355968] (cpp_tf) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.401469] (-) TimerEvent: {}
+[0.481355] (cpp_tf) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.501944] (-) TimerEvent: {}
+[0.533930] (cpp_tf) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.549158] (cpp_tf) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.603729] (-) TimerEvent: {}
+[0.633200] (cpp_tf) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.633596] (cpp_tf) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.633710] (cpp_tf) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.635160] (cpp_tf) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.635610] (cpp_tf) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.636549] (cpp_tf) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.639216] (cpp_tf) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.639371] (cpp_tf) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.639420] (cpp_tf) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.639465] (cpp_tf) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.661463] (cpp_tf) StdoutLine: {'line': b'-- Generating done\n'}
+[0.668960] (cpp_tf) StdoutLine: {'line': b'-- Build files have been written to: /home/wudad10/Fold1/ros2/6_tf/build/cpp_tf\n'}
+[0.679461] (cpp_tf) CommandEnded: {'returncode': 0}
+[0.682797] (cpp_tf) JobProgress: {'identifier': 'cpp_tf', 'progress': 'build'}
+[0.682937] (cpp_tf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wudad10/Fold1/ros2/6_tf/build/cpp_tf', '--', '-j4', '-l4'], 'cwd': '/home/wudad10/Fold1/ros2/6_tf/build/cpp_tf', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'wudad10'), ('LC_TIME', 'zh_TW.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_agent/lib:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_msgs/lib:/home/wudad10/Fold1/chapter9/install/micro_ros_agent/lib:/home/wudad10/Fold1/chapter9/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wudad10'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/wudad10/Fold1/ros2/6_tf/src'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1137'), ('BUNDLED_DEBUGPY_PATH', '/home/wudad10/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wudad10/Fold1/chapter9/fishbot_ws/install:/home/wudad10/Fold1/chapter9/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wudad10'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wudad10'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wudad10/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/wudad10/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/home/wudad10/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/wudad10-virtual-machine:@/tmp/.ICE-unix/1107,unix/wudad10-virtual-machine:/tmp/.ICE-unix/1107'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_TW.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/88ae7d24_b80a_42fc_a58e_d73c1e5215e5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/wudad10/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-96a9e2d7645ed376.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/wudad10/.config/Code/User/workspaceStorage/93ac823d16917d2e4b72cd02d77bf9c4/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_TW.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1V8HJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c38cb37b3b.sock'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wudad10/Fold1/chapter9/fishbot_ws/install/ydlidar:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_agent:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_msgs:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_navigation2:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_description:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_bringup:/home/wudad10/Fold1/chapter9/install/ydlidar:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/micro_ros_agent:/home/wudad10/Fold1/chapter9/install/micro_ros_msgs:/home/wudad10/Fold1/chapter9/install/fishbot_description:/home/wudad10/Fold1/chapter9/install/fishbot_bringup:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_TW.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_TW.UTF-8'), ('LC_IDENTIFICATION', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wudad10/Fold1/ros2/6_tf/build/cpp_tf'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi/lib/python3.10/site-packages:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi/lib/python3.10/site-packages:/home/wudad10/Fold1/chapter9/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_TW.UTF-8'), ('LC_PAPER', 'zh_TW.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wudad10/Fold1/chapter9/fishbot_ws/install/ydlidar:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_agent:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_msgs:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_navigation2:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_description:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_bringup:/home/wudad10/Fold1/chapter9/install/ydlidar:/home/wudad10/Fold1/chapter9/install/micro_ros_agent:/home/wudad10/Fold1/chapter9/install/micro_ros_msgs:/home/wudad10/Fold1/chapter9/install/fishbot_description:/home/wudad10/Fold1/chapter9/install/fishbot_bringup:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/opt/ros/humble')]), 'shell': False}
+[0.704351] (-) TimerEvent: {}
+[0.756064] (py_tf) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_tf', 'build', '--build-base', '/home/wudad10/Fold1/ros2/6_tf/build/py_tf/build', 'install', '--record', '/home/wudad10/Fold1/ros2/6_tf/build/py_tf/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wudad10/Fold1/ros2/6_tf/src/py_tf', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'wudad10', 'LC_TIME': 'zh_TW.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '4', 'LD_LIBRARY_PATH': '/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_agent/lib:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_msgs/lib:/home/wudad10/Fold1/chapter9/install/micro_ros_agent/lib:/home/wudad10/Fold1/chapter9/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wudad10', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/wudad10/Fold1/ros2/6_tf/src', 'TERM_PROGRAM_VERSION': '1.106.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_TW.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1137', 'BUNDLED_DEBUGPY_PATH': '/home/wudad10/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/wudad10/Fold1/chapter9/fishbot_ws/install:/home/wudad10/Fold1/chapter9/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'wudad10', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wudad10', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/wudad10/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/wudad10/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/home/wudad10/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/wudad10-virtual-machine:@/tmp/.ICE-unix/1107,unix/wudad10-virtual-machine:/tmp/.ICE-unix/1107', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_TW.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/88ae7d24_b80a_42fc_a58e_d73c1e5215e5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/wudad10/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-96a9e2d7645ed376.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/wudad10/.config/Code/User/workspaceStorage/93ac823d16917d2e4b72cd02d77bf9c4/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_TW.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1V8HJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c38cb37b3b.sock', 'GNOME_TERMINAL_SERVICE': ':1.103', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wudad10/Fold1/chapter9/fishbot_ws/install/ydlidar:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_agent:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_msgs:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_navigation2:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_description:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_bringup:/home/wudad10/Fold1/chapter9/install/ydlidar:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi:/home/wudad10/Fold1/chapter9/install/micro_ros_agent:/home/wudad10/Fold1/chapter9/install/micro_ros_msgs:/home/wudad10/Fold1/chapter9/install/fishbot_description:/home/wudad10/Fold1/chapter9/install/fishbot_bringup:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'Unity', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_TW.UTF-8', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_TW.UTF-8', 'LC_IDENTIFICATION': 'zh_TW.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/wudad10/Fold1/ros2/6_tf/build/py_tf', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wudad10/Fold1/ros2/6_tf/build/py_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/6_tf/install/py_tf/lib/python3.10/site-packages:/home/wudad10/Fold1/chapter9/fishbot_ws/install/ros_serial2wifi/lib/python3.10/site-packages:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/wudad10/Fold1/chapter9/install/ros_serial2wifi/lib/python3.10/site-packages:/home/wudad10/Fold1/chapter9/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_TW.UTF-8', 'LC_PAPER': 'zh_TW.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/wudad10/Fold1/chapter9/fishbot_ws/install/ydlidar:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_agent:/home/wudad10/Fold1/chapter9/fishbot_ws/install/micro_ros_msgs:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_navigation2:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_description:/home/wudad10/Fold1/chapter9/fishbot_ws/install/fishbot_bringup:/home/wudad10/Fold1/chapter9/install/ydlidar:/home/wudad10/Fold1/chapter9/install/micro_ros_agent:/home/wudad10/Fold1/chapter9/install/micro_ros_msgs:/home/wudad10/Fold1/chapter9/install/fishbot_description:/home/wudad10/Fold1/chapter9/install/fishbot_bringup'}, 'shell': False}
+[0.769917] (cpp_tf) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cpp_tf_listener.dir/src/cpp_tf_listener.cpp.o\x1b[0m\n'}
+[0.770779] (cpp_tf) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_tf_broadcaster.dir/src/cpp_tf_pub.cpp.o\x1b[0m\n'}
+[0.805956] (-) TimerEvent: {}
+[0.906303] (-) TimerEvent: {}
+[1.001817] (py_tf) StdoutLine: {'line': b'running egg_info\n'}
+[1.002171] (py_tf) StdoutLine: {'line': b'writing ../../build/py_tf/py_tf.egg-info/PKG-INFO\n'}
+[1.002703] (py_tf) StdoutLine: {'line': b'writing dependency_links to ../../build/py_tf/py_tf.egg-info/dependency_links.txt\n'}
+[1.003440] (py_tf) StdoutLine: {'line': b'writing entry points to ../../build/py_tf/py_tf.egg-info/entry_points.txt\n'}
+[1.003832] (py_tf) StdoutLine: {'line': b'writing requirements to ../../build/py_tf/py_tf.egg-info/requires.txt\n'}
+[1.004100] (py_tf) StdoutLine: {'line': b'writing top-level names to ../../build/py_tf/py_tf.egg-info/top_level.txt\n'}
+[1.007027] (-) TimerEvent: {}
+[1.007273] (py_tf) StdoutLine: {'line': b"reading manifest file '../../build/py_tf/py_tf.egg-info/SOURCES.txt'\n"}
+[1.007973] (py_tf) StdoutLine: {'line': b"writing manifest file '../../build/py_tf/py_tf.egg-info/SOURCES.txt'\n"}
+[1.008241] (py_tf) StdoutLine: {'line': b'running build\n'}
+[1.009155] (py_tf) StdoutLine: {'line': b'running build_py\n'}
+[1.009334] (py_tf) StdoutLine: {'line': b'running install\n'}
+[1.009382] (py_tf) StdoutLine: {'line': b'running install_lib\n'}
+[1.012065] (py_tf) StdoutLine: {'line': b'running install_data\n'}
+[1.012321] (py_tf) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.012419] (py_tf) StdoutLine: {'line': b"removing '/home/wudad10/Fold1/ros2/6_tf/install/py_tf/lib/python3.10/site-packages/py_tf-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.012638] (py_tf) StdoutLine: {'line': b'Copying ../../build/py_tf/py_tf.egg-info to /home/wudad10/Fold1/ros2/6_tf/install/py_tf/lib/python3.10/site-packages/py_tf-0.0.0-py3.10.egg-info\n'}
+[1.013968] (py_tf) StdoutLine: {'line': b'running install_scripts\n'}
+[1.047053] (py_tf) StdoutLine: {'line': b"writing list of installed files to '/home/wudad10/Fold1/ros2/6_tf/build/py_tf/install.log'\n"}
+[1.086863] (py_tf) CommandEnded: {'returncode': 0}
+[1.100353] (py_tf) JobEnded: {'identifier': 'py_tf', 'rc': 0}
+[1.107252] (-) TimerEvent: {}
+[1.207708] (-) TimerEvent: {}
+[1.308272] (-) TimerEvent: {}
+[1.409106] (-) TimerEvent: {}
+[1.510073] (-) TimerEvent: {}
+[1.611238] (-) TimerEvent: {}
+[1.711692] (-) TimerEvent: {}
+[1.812722] (-) TimerEvent: {}
+[1.914881] (-) TimerEvent: {}
+[2.016117] (-) TimerEvent: {}
+[2.117293] (-) TimerEvent: {}
+[2.218230] (-) TimerEvent: {}
+[2.318751] (-) TimerEvent: {}
+[2.419723] (-) TimerEvent: {}
+[2.520637] (-) TimerEvent: {}
+[2.621167] (-) TimerEvent: {}
+[2.721798] (-) TimerEvent: {}
+[2.822910] (-) TimerEvent: {}
+[2.923665] (-) TimerEvent: {}
+[3.027130] (-) TimerEvent: {}
+[3.127939] (-) TimerEvent: {}
+[3.228830] (-) TimerEvent: {}
+[3.329577] (-) TimerEvent: {}
+[3.430516] (-) TimerEvent: {}
+[3.532993] (-) TimerEvent: {}
+[3.640463] (-) TimerEvent: {}
+[3.742083] (-) TimerEvent: {}
+[3.848645] (-) TimerEvent: {}
+[3.982741] (-) TimerEvent: {}
+[4.109593] (-) TimerEvent: {}
+[4.224645] (-) TimerEvent: {}
+[4.337219] (-) TimerEvent: {}
+[4.445136] (-) TimerEvent: {}
+[4.550219] (-) TimerEvent: {}
+[4.668216] (-) TimerEvent: {}
+[4.796825] (-) TimerEvent: {}
+[4.923493] (-) TimerEvent: {}
+[5.034846] (-) TimerEvent: {}
+[5.147231] (-) TimerEvent: {}
+[5.256323] (-) TimerEvent: {}
+[5.375613] (-) TimerEvent: {}
+[5.514429] (-) TimerEvent: {}
+[5.642741] (-) TimerEvent: {}
+[5.761872] (-) TimerEvent: {}
+[5.880547] (-) TimerEvent: {}
+[6.007543] (-) TimerEvent: {}
+[6.118358] (-) TimerEvent: {}
+[6.225373] (-) TimerEvent: {}
+[6.331543] (-) TimerEvent: {}
+[6.446766] (-) TimerEvent: {}
+[6.558830] (-) TimerEvent: {}
+[6.684729] (-) TimerEvent: {}
+[6.813510] (-) TimerEvent: {}
+[6.928678] (-) TimerEvent: {}
+[7.041062] (-) TimerEvent: {}
+[7.145849] (-) TimerEvent: {}
+[7.238485] (cpp_tf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wudad10/Fold1/ros2/6_tf/src/cpp_tf/src/cpp_tf_listener.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTfListener::TfListener()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.248119] (-) TimerEvent: {}
+[7.248294] (cpp_tf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wudad10/Fold1/ros2/6_tf/src/cpp_tf/src/cpp_tf_listener.cpp:12:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""s\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.248413] (cpp_tf) StderrLine: {'line': b'   12 |       \x1b[01;31m\x1b[K1s\x1b[m\x1b[K, std::bind(&TfListener::lookup, this));\n'}
+[7.248466] (cpp_tf) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.351293] (-) TimerEvent: {}
+[7.481210] (-) TimerEvent: {}
+[7.633551] (-) TimerEvent: {}
+[7.750235] (-) TimerEvent: {}
+[7.861736] (-) TimerEvent: {}
+[7.989498] (-) TimerEvent: {}
+[8.116130] (-) TimerEvent: {}
+[8.236021] (-) TimerEvent: {}
+[8.363932] (-) TimerEvent: {}
+[8.496258] (-) TimerEvent: {}
+[8.619423] (-) TimerEvent: {}
+[8.731719] (-) TimerEvent: {}
+[8.862757] (-) TimerEvent: {}
+[8.993050] (-) TimerEvent: {}
+[9.201752] (-) TimerEvent: {}
+[9.340514] (-) TimerEvent: {}
+[9.501584] (-) TimerEvent: {}
+[9.628087] (-) TimerEvent: {}
+[9.764540] (-) TimerEvent: {}
+[9.890152] (-) TimerEvent: {}
+[10.013133] (-) TimerEvent: {}
+[10.130789] (-) TimerEvent: {}
+[10.253486] (-) TimerEvent: {}
+[10.400901] (-) TimerEvent: {}
+[10.520818] (-) TimerEvent: {}
+[10.635416] (-) TimerEvent: {}
+[10.750163] (-) TimerEvent: {}
+[10.877366] (-) TimerEvent: {}
+[11.063250] (-) TimerEvent: {}
+[11.220343] (-) TimerEvent: {}
+[11.479594] (-) TimerEvent: {}
+[11.631733] (-) TimerEvent: {}
+[11.768328] (-) TimerEvent: {}
+[12.115335] (-) TimerEvent: {}
+[12.240133] (-) TimerEvent: {}
+[12.364716] (-) TimerEvent: {}
+[12.513808] (-) TimerEvent: {}
+[12.648003] (-) TimerEvent: {}
+[12.780576] (-) TimerEvent: {}
+[12.924311] (-) TimerEvent: {}
+[13.055673] (-) TimerEvent: {}
+[13.222540] (-) TimerEvent: {}
+[13.438200] (-) TimerEvent: {}
+[13.676924] (-) TimerEvent: {}
+[13.824771] (-) TimerEvent: {}
+[13.942698] (-) TimerEvent: {}
+[14.117446] (-) TimerEvent: {}
+[14.241365] (-) TimerEvent: {}
+[14.359265] (-) TimerEvent: {}
+[14.513015] (-) TimerEvent: {}
+[14.750263] (-) TimerEvent: {}
+[15.161933] (-) TimerEvent: {}
+[15.335909] (-) TimerEvent: {}
+[15.492176] (-) TimerEvent: {}
+[15.626314] (-) TimerEvent: {}
+[15.745264] (-) TimerEvent: {}
+[15.904672] (-) TimerEvent: {}
+[16.027894] (-) TimerEvent: {}
+[16.165448] (-) TimerEvent: {}
+[16.323199] (-) TimerEvent: {}
+[16.457065] (-) TimerEvent: {}
+[16.595899] (-) TimerEvent: {}
+[16.728025] (-) TimerEvent: {}
+[16.903710] (-) TimerEvent: {}
+[17.030995] (-) TimerEvent: {}
+[17.183714] (-) TimerEvent: {}
+[17.364938] (-) TimerEvent: {}
+[17.517448] (-) TimerEvent: {}
+[17.636033] (-) TimerEvent: {}
+[17.766100] (-) TimerEvent: {}
+[17.905531] (-) TimerEvent: {}
+[18.027162] (-) TimerEvent: {}
+[18.165039] (-) TimerEvent: {}
+[18.288614] (-) TimerEvent: {}
+[18.438645] (-) TimerEvent: {}
+[18.564797] (-) TimerEvent: {}
+[18.712447] (-) TimerEvent: {}
+[18.925960] (-) TimerEvent: {}
+[19.125691] (-) TimerEvent: {}
+[19.407703] (-) TimerEvent: {}
+[19.559094] (-) TimerEvent: {}
+[19.738782] (-) TimerEvent: {}
+[19.912256] (-) TimerEvent: {}
+[20.053967] (-) TimerEvent: {}
+[20.219324] (-) TimerEvent: {}
+[20.348290] (-) TimerEvent: {}
+[20.527216] (-) TimerEvent: {}
+[20.862420] (-) TimerEvent: {}
+[21.145786] (-) TimerEvent: {}
+[21.538371] (-) TimerEvent: {}
+[21.705959] (-) TimerEvent: {}
+[21.842515] (-) TimerEvent: {}
+[22.273531] (-) TimerEvent: {}
+[22.821008] (-) TimerEvent: {}
+[23.216394] (-) TimerEvent: {}
+[23.680002] (-) TimerEvent: {}
+[24.081978] (-) TimerEvent: {}
+[24.525414] (-) TimerEvent: {}
+[25.078809] (-) TimerEvent: {}
+[25.419010] (-) TimerEvent: {}
+[26.083973] (-) TimerEvent: {}
+[26.603390] (-) TimerEvent: {}
+[26.840353] (-) TimerEvent: {}
+[27.185689] (-) TimerEvent: {}
+[27.543444] (-) TimerEvent: {}
+[27.742201] (-) TimerEvent: {}
+[28.094509] (-) TimerEvent: {}
+[28.470259] (-) TimerEvent: {}
+[28.623408] (-) TimerEvent: {}
+[28.982906] (-) TimerEvent: {}
+[29.330161] (-) TimerEvent: {}
+[29.734933] (-) TimerEvent: {}
+[30.091174] (-) TimerEvent: {}
+[30.377625] (-) TimerEvent: {}
+[30.864568] (-) TimerEvent: {}
+[31.187083] (-) TimerEvent: {}
+[31.628662] (-) TimerEvent: {}
+[31.937586] (-) TimerEvent: {}
+[32.340488] (-) TimerEvent: {}
+[32.693381] (-) TimerEvent: {}
+[32.945164] (-) TimerEvent: {}
+[33.251037] (-) TimerEvent: {}
+[33.599833] (-) TimerEvent: {}
+[34.149697] (-) TimerEvent: {}
+[34.454098] (-) TimerEvent: {}
+[34.764082] (-) TimerEvent: {}
+[35.097663] (-) TimerEvent: {}
+[35.455332] (-) TimerEvent: {}
+[35.771159] (-) TimerEvent: {}
+[35.946005] (-) TimerEvent: {}
+[36.151857] (-) TimerEvent: {}
+[36.287085] (-) TimerEvent: {}
+[36.422540] (-) TimerEvent: {}
+[36.601751] (-) TimerEvent: {}
+[36.935542] (-) TimerEvent: {}
+[37.114551] (-) TimerEvent: {}
+[37.287497] (-) TimerEvent: {}
+[37.525004] (-) TimerEvent: {}
+[37.718498] (-) TimerEvent: {}
+[37.858982] (-) TimerEvent: {}
+[38.148933] (-) TimerEvent: {}
+[38.445244] (-) TimerEvent: {}
+[38.728384] (-) TimerEvent: {}
+[38.853315] (-) TimerEvent: {}
+[39.235920] (-) TimerEvent: {}
+[39.618484] (-) TimerEvent: {}
+[39.862981] (-) TimerEvent: {}
+[40.241240] (-) TimerEvent: {}
+[40.539654] (-) TimerEvent: {}
+[40.810970] (-) TimerEvent: {}
+[40.975604] (-) TimerEvent: {}
+[41.204968] (-) TimerEvent: {}
+[41.331393] (-) TimerEvent: {}
+[41.589923] (-) TimerEvent: {}
+[41.835127] (-) TimerEvent: {}
+[41.964106] (-) TimerEvent: {}
+[42.248161] (-) TimerEvent: {}
+[42.561191] (-) TimerEvent: {}
+[42.826550] (-) TimerEvent: {}
+[43.050359] (-) TimerEvent: {}
+[43.721058] (-) TimerEvent: {}
+[43.997747] (-) TimerEvent: {}
+[44.318271] (-) TimerEvent: {}
+[44.922558] (-) TimerEvent: {}
+[45.301907] (-) TimerEvent: {}
+[45.639265] (-) TimerEvent: {}
+[45.814426] (-) TimerEvent: {}
+[46.259975] (-) TimerEvent: {}
+[46.712577] (-) TimerEvent: {}
+[47.194765] (-) TimerEvent: {}
+[47.680342] (-) TimerEvent: {}
+[48.204451] (-) TimerEvent: {}
+[48.656703] (-) TimerEvent: {}
+[49.138630] (-) TimerEvent: {}
+[49.638218] (-) TimerEvent: {}
+[50.144449] (-) TimerEvent: {}
+[50.824242] (-) TimerEvent: {}
+[51.692090] (-) TimerEvent: {}
+[52.224081] (-) TimerEvent: {}
+[53.071949] (-) TimerEvent: {}
+[54.194899] (-) TimerEvent: {}
+[55.516687] (-) TimerEvent: {}
+[56.307750] (-) TimerEvent: {}
+[57.339017] (-) TimerEvent: {}
+[58.557396] (-) TimerEvent: {}
+[60.416822] (-) TimerEvent: {}
+[62.714943] (-) TimerEvent: {}
+[64.811156] (-) TimerEvent: {}
+[65.486231] (-) TimerEvent: {}
+[67.933984] (-) TimerEvent: {}
+[69.073453] (-) TimerEvent: {}
+[71.096120] (-) TimerEvent: {}
+[73.362413] (-) TimerEvent: {}
+[75.221224] (-) TimerEvent: {}
+[76.278225] (-) TimerEvent: {}
+[76.947650] (-) TimerEvent: {}
+[78.461853] (-) TimerEvent: {}
+[80.940356] (-) TimerEvent: {}
+[82.525847] (-) TimerEvent: {}
+[82.934192] (-) TimerEvent: {}
+[83.060473] (-) TimerEvent: {}
+[83.201092] (-) TimerEvent: {}
+[83.339341] (-) TimerEvent: {}
+[83.560547] (-) TimerEvent: {}
+[83.844477] (-) TimerEvent: {}
+[84.047809] (-) TimerEvent: {}
+[84.193269] (-) TimerEvent: {}
+[84.332357] (-) TimerEvent: {}
+[84.492610] (-) TimerEvent: {}
+[84.734237] (-) TimerEvent: {}
+[85.088751] (-) TimerEvent: {}
+[85.241641] (-) TimerEvent: {}
+[85.368163] (-) TimerEvent: {}
+[85.533004] (-) TimerEvent: {}
+[85.704141] (-) TimerEvent: {}
+[85.854094] (-) TimerEvent: {}
+[86.112990] (-) TimerEvent: {}
+[86.297430] (-) TimerEvent: {}
+[86.502875] (-) TimerEvent: {}
+[86.666145] (-) TimerEvent: {}
+[86.837491] (-) TimerEvent: {}
+[87.005670] (-) TimerEvent: {}
+[87.251757] (-) TimerEvent: {}
+[87.483756] (-) TimerEvent: {}
+[87.630381] (-) TimerEvent: {}
+[87.847154] (-) TimerEvent: {}
+[88.037939] (-) TimerEvent: {}
+[88.194065] (-) TimerEvent: {}
+[88.344019] (-) TimerEvent: {}
+[88.545439] (-) TimerEvent: {}
+[88.761638] (-) TimerEvent: {}
+[89.034724] (-) TimerEvent: {}
+[89.165020] (-) TimerEvent: {}
+[89.346863] (-) TimerEvent: {}
+[89.497586] (-) TimerEvent: {}
+[89.655267] (-) TimerEvent: {}
+[89.785601] (-) TimerEvent: {}
+[89.926972] (-) TimerEvent: {}
+[90.048982] (-) TimerEvent: {}
+[90.386866] (-) TimerEvent: {}
+[91.285296] (-) TimerEvent: {}
+[91.492825] (-) TimerEvent: {}
+[91.623931] (-) TimerEvent: {}
+[91.859729] (-) TimerEvent: {}
+[92.277906] (-) TimerEvent: {}
+[92.465770] (-) TimerEvent: {}
+[93.018905] (-) TimerEvent: {}
+[93.923008] (-) TimerEvent: {}
+[94.039557] (-) TimerEvent: {}
+[94.154989] (-) TimerEvent: {}
+[94.270419] (-) TimerEvent: {}
+[94.406926] (-) TimerEvent: {}
+[94.528905] (-) TimerEvent: {}
+[94.674829] (-) TimerEvent: {}
+[94.789893] (-) TimerEvent: {}
+[94.906690] (-) TimerEvent: {}
+[95.020338] (-) TimerEvent: {}
+[95.144150] (-) TimerEvent: {}
+[95.275957] (-) TimerEvent: {}
+[95.503326] (-) TimerEvent: {}
+[95.624390] (-) TimerEvent: {}
+[95.758662] (-) TimerEvent: {}
+[95.906324] (-) TimerEvent: {}
+[96.030035] (-) TimerEvent: {}
+[96.161354] (-) TimerEvent: {}
+[96.344946] (-) TimerEvent: {}
+[96.580437] (-) TimerEvent: {}
+[96.838688] (-) TimerEvent: {}
+[96.967047] (-) TimerEvent: {}
+[97.106252] (-) TimerEvent: {}
+[97.234539] (-) TimerEvent: {}
+[97.350371] (-) TimerEvent: {}
+[97.491916] (-) TimerEvent: {}
+[97.637881] (-) TimerEvent: {}
+[97.786559] (-) TimerEvent: {}
+[97.931021] (-) TimerEvent: {}
+[98.059864] (-) TimerEvent: {}
+[98.199188] (-) TimerEvent: {}
+[98.341056] (-) TimerEvent: {}
+[98.490262] (-) TimerEvent: {}
+[98.625491] (-) TimerEvent: {}
+[98.736008] (-) TimerEvent: {}
+[98.851629] (-) TimerEvent: {}
+[98.981715] (-) TimerEvent: {}
+[99.131021] (-) TimerEvent: {}
+[99.387264] (-) TimerEvent: {}
+[100.143032] (-) TimerEvent: {}
+[100.417124] (-) TimerEvent: {}
+[100.855000] (-) TimerEvent: {}
+[101.234087] (-) TimerEvent: {}
+[101.688622] (-) TimerEvent: {}
+[101.858376] (-) TimerEvent: {}
+[102.189387] (-) TimerEvent: {}
+[102.425166] (-) TimerEvent: {}
+[102.973330] (-) TimerEvent: {}
+[103.421500] (-) TimerEvent: {}
+[103.676743] (-) TimerEvent: {}
+[103.950965] (-) TimerEvent: {}
+[104.380175] (-) TimerEvent: {}
+[104.802944] (-) TimerEvent: {}
+[105.202273] (-) TimerEvent: {}
+[105.457183] (-) TimerEvent: {}
+[105.784104] (-) TimerEvent: {}
+[106.319962] (-) TimerEvent: {}
+[106.718222] (-) TimerEvent: {}
+[106.968445] (-) TimerEvent: {}
+[107.244940] (-) TimerEvent: {}
+[107.594150] (-) TimerEvent: {}
+[107.863868] (-) TimerEvent: {}
+[108.296322] (-) TimerEvent: {}
+[108.487070] (-) TimerEvent: {}
+[108.990781] (-) TimerEvent: {}
+[109.147405] (-) TimerEvent: {}
+[109.496095] (-) TimerEvent: {}
+[109.789335] (-) TimerEvent: {}
+[109.960278] (-) TimerEvent: {}
+[110.090826] (-) TimerEvent: {}
+[110.516853] (-) TimerEvent: {}
+[110.756306] (-) TimerEvent: {}
+[111.131118] (-) TimerEvent: {}
+[111.482827] (-) TimerEvent: {}
+[111.879731] (-) TimerEvent: {}
+[112.138825] (-) TimerEvent: {}
+[112.405363] (-) TimerEvent: {}
+[112.566466] (-) TimerEvent: {}
+[112.722047] (-) TimerEvent: {}
+[112.839835] (-) TimerEvent: {}
+[113.001886] (-) TimerEvent: {}
+[113.140980] (-) TimerEvent: {}
+[113.437262] (-) TimerEvent: {}
+[113.812324] (-) TimerEvent: {}
+[114.043504] (-) TimerEvent: {}
+[114.210097] (-) TimerEvent: {}
+[114.347914] (-) TimerEvent: {}
+[114.579405] (-) TimerEvent: {}
+[114.727014] (-) TimerEvent: {}
+[114.929074] (-) TimerEvent: {}
+[115.068204] (-) TimerEvent: {}
+[115.197630] (-) TimerEvent: {}
+[115.362913] (-) TimerEvent: {}
+[115.525038] (-) TimerEvent: {}
+[115.652384] (-) TimerEvent: {}
+[115.879879] (-) TimerEvent: {}
+[116.018983] (-) TimerEvent: {}
+[116.176598] (-) TimerEvent: {}
+[116.409920] (-) TimerEvent: {}
+[116.569339] (-) TimerEvent: {}
+[116.780541] (-) TimerEvent: {}
+[116.962360] (-) TimerEvent: {}
+[117.278996] (-) TimerEvent: {}
+[117.441591] (-) TimerEvent: {}
+[117.743860] (-) TimerEvent: {}
+[117.934058] (-) TimerEvent: {}
+[118.057260] (-) TimerEvent: {}
+[118.189527] (-) TimerEvent: {}
+[118.331243] (-) TimerEvent: {}
+[118.464918] (-) TimerEvent: {}
+[118.596021] (-) TimerEvent: {}
+[118.822281] (-) TimerEvent: {}
+[118.985412] (-) TimerEvent: {}
+[119.154664] (-) TimerEvent: {}
+[119.349016] (-) TimerEvent: {}
+[119.642167] (-) TimerEvent: {}
+[119.828696] (-) TimerEvent: {}
+[120.009166] (-) TimerEvent: {}
+[120.229201] (-) TimerEvent: {}
+[120.624640] (-) TimerEvent: {}
+[120.749667] (-) TimerEvent: {}
+[120.870583] (-) TimerEvent: {}
+[121.047799] (-) TimerEvent: {}
+[121.242410] (-) TimerEvent: {}
+[121.377892] (-) TimerEvent: {}
+[121.524403] (-) TimerEvent: {}
+[121.731657] (-) TimerEvent: {}
+[121.869412] (-) TimerEvent: {}
+[122.027816] (-) TimerEvent: {}
+[122.150120] (-) TimerEvent: {}
+[122.304785] (-) TimerEvent: {}
+[122.597964] (-) TimerEvent: {}
+[122.795796] (cpp_tf) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cpp_tf_listener.dir/build.make:76\xef\xbc\x9aCMakeFiles/cpp_tf_listener.dir/src/cpp_tf_listener.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[122.797646] (-) TimerEvent: {}
+[122.799856] (cpp_tf) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/cpp_tf_listener.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[122.800205] (cpp_tf) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[122.897811] (-) TimerEvent: {}
+[122.998578] (-) TimerEvent: {}
+[123.099546] (-) TimerEvent: {}
+[123.200657] (-) TimerEvent: {}
+[123.302386] (-) TimerEvent: {}
+[123.403018] (-) TimerEvent: {}
+[123.503764] (-) TimerEvent: {}
+[123.604651] (-) TimerEvent: {}
+[123.706889] (-) TimerEvent: {}
+[123.812905] (-) TimerEvent: {}
+[123.914296] (-) TimerEvent: {}
+[124.014982] (-) TimerEvent: {}
+[124.115401] (-) TimerEvent: {}
+[124.216137] (-) TimerEvent: {}
+[124.316592] (-) TimerEvent: {}
+[124.417004] (-) TimerEvent: {}
+[124.517542] (-) TimerEvent: {}
+[124.617972] (-) TimerEvent: {}
+[124.718595] (-) TimerEvent: {}
+[124.819095] (-) TimerEvent: {}
+[124.888756] (cpp_tf) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cpp_tf_broadcaster\x1b[0m\n'}
+[124.919697] (-) TimerEvent: {}
+[125.020582] (-) TimerEvent: {}
+[125.121273] (-) TimerEvent: {}
+[125.221763] (-) TimerEvent: {}
+[125.322394] (-) TimerEvent: {}
+[125.370377] (cpp_tf) StdoutLine: {'line': b'[ 75%] Built target cpp_tf_broadcaster\n'}
+[125.373230] (cpp_tf) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[125.382646] (cpp_tf) CommandEnded: {'returncode': 2}
+[125.397806] (cpp_tf) JobEnded: {'identifier': 'cpp_tf', 'rc': 2}
+[125.408615] (-) EventReactorShutdown: {}

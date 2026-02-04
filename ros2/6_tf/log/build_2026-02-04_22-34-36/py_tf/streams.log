@@ -1,0 +1,11 @@
+[0.869s] Invoking command in '/home/wudad10/Fold1/ros2/6_tf/src/py_tf': PYTHONPATH=/home/wudad10/Fold1/ros2/6_tf/build/py_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/6_tf/install/py_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_tf build --build-base /home/wudad10/Fold1/ros2/6_tf/build/py_tf/build install --record /home/wudad10/Fold1/ros2/6_tf/build/py_tf/install.log --single-version-externally-managed install_data
+[1.109s] running egg_info
+[1.110s] creating ../../build/py_tf/py_tf_demo.egg-info
+[1.110s] writing ../../build/py_tf/py_tf_demo.egg-info/PKG-INFO
+[1.111s] writing dependency_links to ../../build/py_tf/py_tf_demo.egg-info/dependency_links.txt
+[1.111s] writing entry points to ../../build/py_tf/py_tf_demo.egg-info/entry_points.txt
+[1.111s] writing requirements to ../../build/py_tf/py_tf_demo.egg-info/requires.txt
+[1.111s] writing top-level names to ../../build/py_tf/py_tf_demo.egg-info/top_level.txt
+[1.111s] writing manifest file '../../build/py_tf/py_tf_demo.egg-info/SOURCES.txt'
+[1.112s] error: package directory 'py_tf_demo' does not exist
+[1.144s] Invoked command in '/home/wudad10/Fold1/ros2/6_tf/src/py_tf' returned '1': PYTHONPATH=/home/wudad10/Fold1/ros2/6_tf/build/py_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wudad10/Fold1/ros2/6_tf/install/py_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_tf build --build-base /home/wudad10/Fold1/ros2/6_tf/build/py_tf/build install --record /home/wudad10/Fold1/ros2/6_tf/build/py_tf/install.log --single-version-externally-managed install_data
